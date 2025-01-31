@@ -1,0 +1,1 @@
+/root/ros2_ws/src/build/plansys2_core/ament_cmake_environment_hooks/local_setup.bash

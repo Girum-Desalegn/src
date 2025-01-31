@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/root/ros2_ws/src/build/rclcpp_cascade_lifecycle/librclcpp_cascade_lifecycle.so" "TARGETS" "rclcpp_cascade_lifecycle" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "lib/rclcpp_cascade_lifecycle")

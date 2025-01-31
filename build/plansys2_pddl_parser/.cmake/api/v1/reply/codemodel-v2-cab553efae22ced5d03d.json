@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "plansys2_pddl_parser",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "parser::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-parser-9ecc74f6123ca7f11c03.json",
+					"name" : "parser",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "plansys2_pddl_parser::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-plansys2_pddl_parser-e211fd46a4affb1f548f.json",
+					"name" : "plansys2_pddl_parser",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "plansys2_pddl_parser_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-plansys2_pddl_parser_uninstall-4b7c079762ae50372e84.json",
+					"name" : "plansys2_pddl_parser_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-cea503e6b1e3516ab879.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/ros2_ws/src/build/plansys2_pddl_parser",
+		"source" : "/root/ros2_ws/src/ros2_planning_system/plansys2_pddl_parser"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

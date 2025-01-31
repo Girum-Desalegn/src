@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/root/ros2_ws/src/build/cascade_lifecycle_msgs/rosidl_generator_py/cascade_lifecycle_msgs/libcascade_lifecycle_msgs__python.so" "TARGETS" "cascade_lifecycle_msgs__python" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

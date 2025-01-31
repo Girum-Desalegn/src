@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from plansys2_msgs/srv/AffectParam.srv
+// generated code does not contain a copyright notice
+
+#include "plansys2_msgs/msg/Param.idl"
+
+module plansys2_msgs {
+  module srv {
+    struct AffectParam_Request {
+      plansys2_msgs::msg::Param param;
+    };
+    struct AffectParam_Response {
+      boolean success;
+
+      string error_info;
+    };
+  };
+};

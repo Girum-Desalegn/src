@@ -1,0 +1,1 @@
+/root/ros2_ws/src/build/plansys2_terminal/ament_cmake_core/plansys2_terminalConfig-version.cmake

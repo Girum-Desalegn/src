@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from plansys2_msgs/srv/GetDomainActionDetails.srv
+// generated code does not contain a copyright notice
+
+#include "plansys2_msgs/msg/Action.idl"
+
+module plansys2_msgs {
+  module srv {
+    struct GetDomainActionDetails_Request {
+      string action;
+
+      sequence<string> parameters;
+    };
+    struct GetDomainActionDetails_Response {
+      plansys2_msgs::msg::Action action;
+
+      boolean success;
+
+      string error_info;
+    };
+  };
+};

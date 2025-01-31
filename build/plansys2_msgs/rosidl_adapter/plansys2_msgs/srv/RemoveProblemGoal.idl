@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from plansys2_msgs/srv/RemoveProblemGoal.srv
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Empty.idl"
+
+module plansys2_msgs {
+  module srv {
+    struct RemoveProblemGoal_Request {
+      std_msgs::msg::Empty request;
+    };
+    struct RemoveProblemGoal_Response {
+      boolean success;
+
+      string error_info;
+    };
+  };
+};

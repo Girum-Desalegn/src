@@ -1,0 +1,114 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "plansys2_multidomain_example",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ask_charge_action_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ask_charge_action_node-9e0ecb4e044d134febf2.json",
+					"name" : "ask_charge_action_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "charge_action_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-charge_action_node-13b79eb45b3a8ca42877.json",
+					"name" : "charge_action_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "move_action_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-move_action_node-bf2c2deb256ba89aef6c.json",
+					"name" : "move_action_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pick_object_action_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pick_object_action_node-86af4c6bd676ad91ecf6.json",
+					"name" : "pick_object_action_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "place_object_action_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-place_object_action_node-be48acb18d10ab908216.json",
+					"name" : "place_object_action_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "plansys2_multidomain_example_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-plansys2_multidomain_example_uninstall-aa27a0a64233b59c29f8.json",
+					"name" : "plansys2_multidomain_example_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-6a11783d4648c6bfd710.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/ros2_ws/src/build/plansys2_multidomain_example",
+		"source" : "/root/ros2_ws/src/ros2_planning_system_examples/plansys2_multidomain_example"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

@@ -1,0 +1,100 @@
+[0.015s] Invoking command in '/root/ros2_ws/src/build/rclcpp_cascade_lifecycle': AMENT_PREFIX_PATH=/root/ros2_ws/src/install/cascade_lifecycle_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/src/install/cascade_lifecycle_msgs:/root/ros2_ws/install/ros2_aruco_interfaces:/root/ros2_ws/install/robot_urdf:/root/ros2_ws/install/plansys2_planner:/root/ros2_ws/install/plansys2_problem_expert:/root/ros2_ws/install/plansys2_domain_expert:/root/ros2_ws/install/plansys2_popf_plan_solver:/root/ros2_ws/install/plansys2_core:/root/ros2_ws/install/plansys2_pddl_parser:/root/ros2_ws/install/plansys2_msgs:/root/ros2_ws/install/plansys2_lifecycle_manager:/root/ros2_ws/install/ros2_aruco:/opt/ros/foxy LD_LIBRARY_PATH=/root/ros2_ws/src/install/cascade_lifecycle_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/src/install/cascade_lifecycle_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /root/ros2_ws/src/ros2_planning_system/cascade_lifecycle/rclcpp_cascade_lifecycle -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/install/rclcpp_cascade_lifecycle
+[0.072s] -- The C compiler identification is GNU 9.4.0
+[0.136s] -- The CXX compiler identification is GNU 9.4.0
+[0.142s] -- Check for working C compiler: /usr/bin/cc
+[0.255s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.256s] -- Detecting C compiler ABI info
+[0.340s] -- Detecting C compiler ABI info - done
+[0.356s] -- Detecting C compile features
+[0.356s] -- Detecting C compile features - done
+[0.361s] -- Check for working CXX compiler: /usr/bin/c++
+[0.510s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.512s] -- Detecting CXX compiler ABI info
+[0.603s] -- Detecting CXX compiler ABI info - done
+[0.614s] -- Detecting CXX compile features
+[0.615s] -- Detecting CXX compile features - done
+[0.618s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.655s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.656s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.844s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.900s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.974s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.989s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.098s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.137s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.244s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.296s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.298s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.298s] -- Looking for pthread.h
+[1.385s] -- Looking for pthread.h - found
+[1.386s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.476s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.477s] -- Looking for pthread_create in pthreads
+[1.773s] -- Looking for pthread_create in pthreads - not found
+[1.773s] -- Looking for pthread_create in pthread
+[1.943s] -- Looking for pthread_create in pthread - found
+[1.944s] -- Found Threads: TRUE  
+[2.238s] -- Found rclcpp_lifecycle: 2.4.3 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)
+[2.286s] -- Found cascade_lifecycle_msgs: 1.0.0 (/root/ros2_ws/src/install/cascade_lifecycle_msgs/share/cascade_lifecycle_msgs/cmake)
+[2.328s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.480s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.485s] -- Check if compiler accepts -pthread
+[2.595s] -- Check if compiler accepts -pthread - yes
+[2.611s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.614s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.614s] -- Configured cppcheck include dirs: /root/ros2_ws/src/ros2_planning_system/cascade_lifecycle/rclcpp_cascade_lifecycle/include
+[2.615s] -- Configured cppcheck exclude dirs and/or files: 
+[2.617s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.619s] -- Configured cpplint exclude dirs and/or files: 
+[2.619s] -- Added test 'lint_cmake' to check CMake code style
+[2.621s] -- Added test 'uncrustify' to check C / C++ code style
+[2.621s] -- Configured uncrustify additional arguments: 
+[2.627s] -- Added test 'xmllint' to check XML markup files
+[2.633s] -- Configuring done
+[2.661s] -- Generating done
+[2.672s] -- Build files have been written to: /root/ros2_ws/src/build/rclcpp_cascade_lifecycle
+[2.686s] Invoked command in '/root/ros2_ws/src/build/rclcpp_cascade_lifecycle' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/src/install/cascade_lifecycle_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/src/install/cascade_lifecycle_msgs:/root/ros2_ws/install/ros2_aruco_interfaces:/root/ros2_ws/install/robot_urdf:/root/ros2_ws/install/plansys2_planner:/root/ros2_ws/install/plansys2_problem_expert:/root/ros2_ws/install/plansys2_domain_expert:/root/ros2_ws/install/plansys2_popf_plan_solver:/root/ros2_ws/install/plansys2_core:/root/ros2_ws/install/plansys2_pddl_parser:/root/ros2_ws/install/plansys2_msgs:/root/ros2_ws/install/plansys2_lifecycle_manager:/root/ros2_ws/install/ros2_aruco:/opt/ros/foxy LD_LIBRARY_PATH=/root/ros2_ws/src/install/cascade_lifecycle_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/src/install/cascade_lifecycle_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /root/ros2_ws/src/ros2_planning_system/cascade_lifecycle/rclcpp_cascade_lifecycle -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/install/rclcpp_cascade_lifecycle
+[2.687s] Invoking command in '/root/ros2_ws/src/build/rclcpp_cascade_lifecycle': AMENT_PREFIX_PATH=/root/ros2_ws/src/install/cascade_lifecycle_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/src/install/cascade_lifecycle_msgs:/root/ros2_ws/install/ros2_aruco_interfaces:/root/ros2_ws/install/robot_urdf:/root/ros2_ws/install/plansys2_planner:/root/ros2_ws/install/plansys2_problem_expert:/root/ros2_ws/install/plansys2_domain_expert:/root/ros2_ws/install/plansys2_popf_plan_solver:/root/ros2_ws/install/plansys2_core:/root/ros2_ws/install/plansys2_pddl_parser:/root/ros2_ws/install/plansys2_msgs:/root/ros2_ws/install/plansys2_lifecycle_manager:/root/ros2_ws/install/ros2_aruco:/opt/ros/foxy LD_LIBRARY_PATH=/root/ros2_ws/src/install/cascade_lifecycle_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/src/install/cascade_lifecycle_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ros2_ws/src/build/rclcpp_cascade_lifecycle -- -j16 -l16
+[2.753s] [35m[1mScanning dependencies of target gtest_main[0m
+[2.754s] [35m[1mScanning dependencies of target gtest[0m
+[2.765s] [35m[1mScanning dependencies of target rclcpp_cascade_lifecycle[0m
+[2.773s] [ 12%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[2.814s] [ 25%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[2.905s] [ 37%] [32mBuilding CXX object CMakeFiles/rclcpp_cascade_lifecycle.dir/src/rclcpp_cascade_lifecycle/rclcpp_cascade_lifecycle.cpp.o[0m
+[3.609s] [ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[3.653s] [ 50%] Built target gtest_main
+[5.951s] [ 62%] [32m[1mLinking CXX static library libgtest.a[0m
+[5.990s] [ 62%] Built target gtest
+[9.052s] [ 75%] [32m[1mLinking CXX shared library librclcpp_cascade_lifecycle.so[0m
+[9.261s] [ 75%] Built target rclcpp_cascade_lifecycle
+[9.269s] [35m[1mScanning dependencies of target rclcpp_cascade_lifecycle_test[0m
+[9.298s] [ 87%] [32mBuilding CXX object test/CMakeFiles/rclcpp_cascade_lifecycle_test.dir/rclcpp_cascade_lifecycle_test.cpp.o[0m
+[11.409s] [100%] [32m[1mLinking CXX executable rclcpp_cascade_lifecycle_test[0m
+[11.568s] [100%] Built target rclcpp_cascade_lifecycle_test
+[11.576s] Invoked command in '/root/ros2_ws/src/build/rclcpp_cascade_lifecycle' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/src/install/cascade_lifecycle_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/src/install/cascade_lifecycle_msgs:/root/ros2_ws/install/ros2_aruco_interfaces:/root/ros2_ws/install/robot_urdf:/root/ros2_ws/install/plansys2_planner:/root/ros2_ws/install/plansys2_problem_expert:/root/ros2_ws/install/plansys2_domain_expert:/root/ros2_ws/install/plansys2_popf_plan_solver:/root/ros2_ws/install/plansys2_core:/root/ros2_ws/install/plansys2_pddl_parser:/root/ros2_ws/install/plansys2_msgs:/root/ros2_ws/install/plansys2_lifecycle_manager:/root/ros2_ws/install/ros2_aruco:/opt/ros/foxy LD_LIBRARY_PATH=/root/ros2_ws/src/install/cascade_lifecycle_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/src/install/cascade_lifecycle_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ros2_ws/src/build/rclcpp_cascade_lifecycle -- -j16 -l16
+[11.579s] Invoking command in '/root/ros2_ws/src/build/rclcpp_cascade_lifecycle': AMENT_PREFIX_PATH=/root/ros2_ws/src/install/cascade_lifecycle_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/src/install/cascade_lifecycle_msgs:/root/ros2_ws/install/ros2_aruco_interfaces:/root/ros2_ws/install/robot_urdf:/root/ros2_ws/install/plansys2_planner:/root/ros2_ws/install/plansys2_problem_expert:/root/ros2_ws/install/plansys2_domain_expert:/root/ros2_ws/install/plansys2_popf_plan_solver:/root/ros2_ws/install/plansys2_core:/root/ros2_ws/install/plansys2_pddl_parser:/root/ros2_ws/install/plansys2_msgs:/root/ros2_ws/install/plansys2_lifecycle_manager:/root/ros2_ws/install/ros2_aruco:/opt/ros/foxy LD_LIBRARY_PATH=/root/ros2_ws/src/install/cascade_lifecycle_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/src/install/cascade_lifecycle_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ros2_ws/src/build/rclcpp_cascade_lifecycle
+[11.584s] -- Install configuration: ""
+[11.585s] -- Execute custom install script
+[11.585s] -- Symlinking: /root/ros2_ws/src/install/rclcpp_cascade_lifecycle/include//rclcpp_cascade_lifecycle/rclcpp_cascade_lifecycle.hpp
+[11.592s] -- Symlinking: /root/ros2_ws/src/install/rclcpp_cascade_lifecycle/lib/librclcpp_cascade_lifecycle.so
+[11.598s] -- Symlinking: /root/ros2_ws/src/install/rclcpp_cascade_lifecycle/share/rclcpp_cascade_lifecycle/environment/library_path.sh
+[11.604s] -- Symlinking: /root/ros2_ws/src/install/rclcpp_cascade_lifecycle/share/rclcpp_cascade_lifecycle/environment/library_path.dsv
+[11.610s] -- Symlinking: /root/ros2_ws/src/install/rclcpp_cascade_lifecycle/share/ament_index/resource_index/package_run_dependencies/rclcpp_cascade_lifecycle
+[11.616s] -- Symlinking: /root/ros2_ws/src/install/rclcpp_cascade_lifecycle/share/ament_index/resource_index/parent_prefix_path/rclcpp_cascade_lifecycle
+[11.622s] -- Symlinking: /root/ros2_ws/src/install/rclcpp_cascade_lifecycle/share/rclcpp_cascade_lifecycle/environment/ament_prefix_path.sh
+[11.628s] -- Symlinking: /root/ros2_ws/src/install/rclcpp_cascade_lifecycle/share/rclcpp_cascade_lifecycle/environment/ament_prefix_path.dsv
+[11.634s] -- Symlinking: /root/ros2_ws/src/install/rclcpp_cascade_lifecycle/share/rclcpp_cascade_lifecycle/environment/path.sh
+[11.641s] -- Symlinking: /root/ros2_ws/src/install/rclcpp_cascade_lifecycle/share/rclcpp_cascade_lifecycle/environment/path.dsv
+[11.647s] -- Symlinking: /root/ros2_ws/src/install/rclcpp_cascade_lifecycle/share/rclcpp_cascade_lifecycle/local_setup.bash
+[11.653s] -- Symlinking: /root/ros2_ws/src/install/rclcpp_cascade_lifecycle/share/rclcpp_cascade_lifecycle/local_setup.sh
+[11.659s] -- Symlinking: /root/ros2_ws/src/install/rclcpp_cascade_lifecycle/share/rclcpp_cascade_lifecycle/local_setup.zsh
+[11.664s] -- Symlinking: /root/ros2_ws/src/install/rclcpp_cascade_lifecycle/share/rclcpp_cascade_lifecycle/local_setup.dsv
+[11.670s] -- Symlinking: /root/ros2_ws/src/install/rclcpp_cascade_lifecycle/share/rclcpp_cascade_lifecycle/package.dsv
+[11.676s] -- Symlinking: /root/ros2_ws/src/install/rclcpp_cascade_lifecycle/share/ament_index/resource_index/packages/rclcpp_cascade_lifecycle
+[11.683s] -- Symlinking: /root/ros2_ws/src/install/rclcpp_cascade_lifecycle/share/rclcpp_cascade_lifecycle/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.689s] -- Symlinking: /root/ros2_ws/src/install/rclcpp_cascade_lifecycle/share/rclcpp_cascade_lifecycle/cmake/ament_cmake_export_libraries-extras.cmake
+[11.696s] -- Symlinking: /root/ros2_ws/src/install/rclcpp_cascade_lifecycle/share/rclcpp_cascade_lifecycle/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.702s] -- Symlinking: /root/ros2_ws/src/install/rclcpp_cascade_lifecycle/share/rclcpp_cascade_lifecycle/cmake/rclcpp_cascade_lifecycleConfig.cmake
+[11.708s] -- Symlinking: /root/ros2_ws/src/install/rclcpp_cascade_lifecycle/share/rclcpp_cascade_lifecycle/cmake/rclcpp_cascade_lifecycleConfig-version.cmake
+[11.714s] -- Symlinking: /root/ros2_ws/src/install/rclcpp_cascade_lifecycle/share/rclcpp_cascade_lifecycle/package.xml
+[11.722s] Invoked command in '/root/ros2_ws/src/build/rclcpp_cascade_lifecycle' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/src/install/cascade_lifecycle_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/src/install/cascade_lifecycle_msgs:/root/ros2_ws/install/ros2_aruco_interfaces:/root/ros2_ws/install/robot_urdf:/root/ros2_ws/install/plansys2_planner:/root/ros2_ws/install/plansys2_problem_expert:/root/ros2_ws/install/plansys2_domain_expert:/root/ros2_ws/install/plansys2_popf_plan_solver:/root/ros2_ws/install/plansys2_core:/root/ros2_ws/install/plansys2_pddl_parser:/root/ros2_ws/install/plansys2_msgs:/root/ros2_ws/install/plansys2_lifecycle_manager:/root/ros2_ws/install/ros2_aruco:/opt/ros/foxy LD_LIBRARY_PATH=/root/ros2_ws/src/install/cascade_lifecycle_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/src/install/cascade_lifecycle_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ros2_ws/src/build/rclcpp_cascade_lifecycle

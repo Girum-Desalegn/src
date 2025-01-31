@@ -1,0 +1,998 @@
+[0.044s] Invoking command in '/root/ros2_ws/src/build/plansys2_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/ros2_aruco:/opt/ros/foxy /usr/bin/cmake /root/ros2_ws/src/ros2_planning_system/plansys2_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/install/plansys2_msgs
+[0.250s] -- The C compiler identification is GNU 9.4.0
+[0.369s] -- The CXX compiler identification is GNU 9.4.0
+[0.373s] -- Check for working C compiler: /usr/bin/cc
+[0.433s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.435s] -- Detecting C compiler ABI info
+[0.495s] -- Detecting C compiler ABI info - done
+[0.504s] -- Detecting C compile features
+[0.504s] -- Detecting C compile features - done
+[0.507s] -- Check for working CXX compiler: /usr/bin/c++
+[0.572s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.573s] -- Detecting CXX compiler ABI info
+[0.636s] -- Detecting CXX compiler ABI info - done
+[0.648s] -- Detecting CXX compile features
+[0.648s] -- Detecting CXX compile features - done
+[0.662s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.694s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.694s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.836s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.898s] -- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)
+[0.966s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.979s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.104s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.134s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.233s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.268s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.285s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[1.299s] -- Found action_msgs: 1.0.0 (/opt/ros/foxy/share/action_msgs/cmake)
+[1.367s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.681s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[1.862s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.916s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.942s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[1.945s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[1.970s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[1.970s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.970s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.970s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[1.992s] -- Found PythonExtra: .so  
+[2.100s] -- Configuring done
+[2.241s] -- Generating done
+[2.266s] -- Build files have been written to: /root/ros2_ws/src/build/plansys2_msgs
+[2.277s] Invoked command in '/root/ros2_ws/src/build/plansys2_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/ros2_aruco:/opt/ros/foxy /usr/bin/cmake /root/ros2_ws/src/ros2_planning_system/plansys2_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/install/plansys2_msgs
+[2.281s] Invoking command in '/root/ros2_ws/src/build/plansys2_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/ros2_aruco:/opt/ros/foxy /usr/bin/cmake --build /root/ros2_ws/src/build/plansys2_msgs -- -j16 -l16
+[2.346s] [  0%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.360s] [35m[1mScanning dependencies of target plansys2_msgs__cpp[0m
+[2.383s] [  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.832s] [  0%] Built target plansys2_msgs__cpp
+[4.844s] [  1%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.844s] [  1%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.846s] [  2%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.259s] [35m[1mScanning dependencies of target plansys2_msgs__rosidl_generator_c[0m
+[5.290s] [  3%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_generator_c.dir/rosidl_generator_c/plansys2_msgs/msg/detail/action__functions.c.o[0m
+[5.292s] [  4%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_generator_c.dir/rosidl_generator_c/plansys2_msgs/msg/detail/action_performer_status__functions.c.o[0m
+[5.292s] [  4%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_generator_c.dir/rosidl_generator_c/plansys2_msgs/msg/detail/durative_action__functions.c.o[0m
+[5.293s] [  4%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_generator_c.dir/rosidl_generator_c/plansys2_msgs/msg/detail/param__functions.c.o[0m
+[5.293s] [  4%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_generator_c.dir/rosidl_generator_c/plansys2_msgs/msg/detail/action_execution_info__functions.c.o[0m
+[5.293s] [  5%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_generator_c.dir/rosidl_generator_c/plansys2_msgs/msg/detail/node__functions.c.o[0m
+[5.294s] [  5%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_generator_c.dir/rosidl_generator_c/plansys2_msgs/msg/detail/knowledge__functions.c.o[0m
+[5.296s] [  6%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_generator_c.dir/rosidl_generator_c/plansys2_msgs/msg/detail/plan__functions.c.o[0m
+[5.296s] [  6%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_generator_c.dir/rosidl_generator_c/plansys2_msgs/msg/detail/tree__functions.c.o[0m
+[5.302s] [  6%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_generator_c.dir/rosidl_generator_c/plansys2_msgs/msg/detail/action_execution__functions.c.o[0m
+[5.303s] [  7%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_generator_c.dir/rosidl_generator_c/plansys2_msgs/srv/detail/add_problem__functions.c.o[0m
+[5.303s] [  7%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_generator_c.dir/rosidl_generator_c/plansys2_msgs/msg/detail/plan_item__functions.c.o[0m
+[5.306s] [  7%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_generator_c.dir/rosidl_generator_c/plansys2_msgs/srv/detail/add_problem_goal__functions.c.o[0m
+[5.354s] [  7%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_generator_c.dir/rosidl_generator_c/plansys2_msgs/srv/detail/affect_node__functions.c.o[0m
+[5.355s] [  8%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_generator_c.dir/rosidl_generator_c/plansys2_msgs/srv/detail/affect_param__functions.c.o[0m
+[5.368s] [  8%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_generator_c.dir/rosidl_generator_c/plansys2_msgs/srv/detail/get_domain__functions.c.o[0m
+[5.368s] [  8%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_generator_c.dir/rosidl_generator_c/plansys2_msgs/srv/detail/exist_node__functions.c.o[0m
+[5.371s] [  9%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_generator_c.dir/rosidl_generator_c/plansys2_msgs/srv/detail/get_domain_actions__functions.c.o[0m
+[5.380s] [  9%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_generator_c.dir/rosidl_generator_c/plansys2_msgs/srv/detail/get_domain_action_details__functions.c.o[0m
+[5.387s] [ 10%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_generator_c.dir/rosidl_generator_c/plansys2_msgs/srv/detail/get_node_details__functions.c.o[0m
+[5.387s] [ 10%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_generator_c.dir/rosidl_generator_c/plansys2_msgs/srv/detail/get_domain_types__functions.c.o[0m
+[5.395s] [ 11%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_generator_c.dir/rosidl_generator_c/plansys2_msgs/srv/detail/get_plan__functions.c.o[0m
+[5.395s] [ 11%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_generator_c.dir/rosidl_generator_c/plansys2_msgs/srv/detail/get_ordered_sub_goals__functions.c.o[0m
+[5.413s] [ 11%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_generator_c.dir/rosidl_generator_c/plansys2_msgs/srv/detail/get_domain_durative_action_details__functions.c.o[0m
+[5.426s] [ 11%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_generator_c.dir/rosidl_generator_c/plansys2_msgs/srv/detail/get_problem__functions.c.o[0m
+[5.436s] [ 11%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_generator_c.dir/rosidl_generator_c/plansys2_msgs/srv/detail/get_problem_goal__functions.c.o[0m
+[5.441s] [ 12%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_generator_c.dir/rosidl_generator_c/plansys2_msgs/srv/detail/get_problem_instances__functions.c.o[0m
+[5.445s] [ 12%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_generator_c.dir/rosidl_generator_c/plansys2_msgs/srv/detail/get_problem_instance_details__functions.c.o[0m
+[5.449s] [ 13%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_generator_c.dir/rosidl_generator_c/plansys2_msgs/srv/detail/get_states__functions.c.o[0m
+[5.450s] [ 13%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_generator_c.dir/rosidl_generator_c/plansys2_msgs/srv/detail/is_problem_goal_satisfied__functions.c.o[0m
+[5.460s] [ 14%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_generator_c.dir/rosidl_generator_c/plansys2_msgs/srv/detail/clear_problem_knowledge__functions.c.o[0m
+[5.461s] [ 14%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_generator_c.dir/rosidl_generator_c/plansys2_msgs/srv/detail/remove_problem_goal__functions.c.o[0m
+[5.499s] [ 14%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_generator_c.dir/rosidl_generator_c/plansys2_msgs/action/detail/execute_plan__functions.c.o[0m
+[5.609s] [ 14%] [32m[1mLinking C shared library libplansys2_msgs__rosidl_generator_c.so[0m
+[5.667s] [ 14%] Built target plansys2_msgs__rosidl_generator_c
+[5.677s] [ 15%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.682s] [ 16%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.346s] [35m[1mScanning dependencies of target plansys2_msgs__rosidl_typesupport_cpp[0m
+[6.374s] [ 16%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/plansys2_msgs/msg/action_execution__type_support.cpp.o[0m
+[6.375s] [ 17%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/plansys2_msgs/msg/action_execution_info__type_support.cpp.o[0m
+[6.376s] [ 17%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/plansys2_msgs/msg/durative_action__type_support.cpp.o[0m
+[6.376s] [ 18%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/plansys2_msgs/msg/plan__type_support.cpp.o[0m
+[6.377s] [ 18%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/plansys2_msgs/msg/action_performer_status__type_support.cpp.o[0m
+[6.377s] [ 18%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/plansys2_msgs/msg/param__type_support.cpp.o[0m
+[6.377s] [ 19%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/plansys2_msgs/msg/action__type_support.cpp.o[0m
+[6.386s] [ 19%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/plansys2_msgs/msg/node__type_support.cpp.o[0m
+[6.386s] [ 20%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/plansys2_msgs/msg/knowledge__type_support.cpp.o[0m
+[6.386s] [ 20%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/plansys2_msgs/msg/plan_item__type_support.cpp.o[0m
+[6.456s] [ 20%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/plansys2_msgs/msg/tree__type_support.cpp.o[0m
+[6.460s] [ 21%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/plansys2_msgs/srv/add_problem__type_support.cpp.o[0m
+[6.710s] [ 21%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/plansys2_msgs/srv/add_problem_goal__type_support.cpp.o[0m
+[6.720s] [ 21%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/plansys2_msgs/srv/affect_node__type_support.cpp.o[0m
+[6.726s] [ 21%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/plansys2_msgs/srv/exist_node__type_support.cpp.o[0m
+[6.727s] [ 22%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/plansys2_msgs/srv/affect_param__type_support.cpp.o[0m
+[6.731s] [ 22%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/plansys2_msgs/srv/get_domain__type_support.cpp.o[0m
+[6.759s] [ 23%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/plansys2_msgs/srv/get_domain_actions__type_support.cpp.o[0m
+[6.771s] [ 23%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/plansys2_msgs/srv/get_domain_action_details__type_support.cpp.o[0m
+[6.784s] [ 23%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/plansys2_msgs/srv/get_domain_durative_action_details__type_support.cpp.o[0m
+[6.835s] [ 24%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/plansys2_msgs/srv/get_domain_types__type_support.cpp.o[0m
+[6.857s] [ 24%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/plansys2_msgs/srv/get_node_details__type_support.cpp.o[0m
+[6.895s] [ 25%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/plansys2_msgs/srv/get_ordered_sub_goals__type_support.cpp.o[0m
+[6.904s] [ 25%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/plansys2_msgs/srv/get_plan__type_support.cpp.o[0m
+[7.018s] [ 25%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/plansys2_msgs/srv/get_problem__type_support.cpp.o[0m
+[7.027s] [ 26%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/plansys2_msgs/srv/get_problem_goal__type_support.cpp.o[0m
+[7.090s] [ 26%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/plansys2_msgs/srv/get_problem_instances__type_support.cpp.o[0m
+[7.153s] [ 26%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/plansys2_msgs/srv/get_problem_instance_details__type_support.cpp.o[0m
+[7.159s] [ 27%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/plansys2_msgs/srv/get_states__type_support.cpp.o[0m
+[7.177s] [ 27%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/plansys2_msgs/srv/remove_problem_goal__type_support.cpp.o[0m
+[7.178s] [ 28%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/plansys2_msgs/srv/clear_problem_knowledge__type_support.cpp.o[0m
+[7.190s] [ 28%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/plansys2_msgs/srv/is_problem_goal_satisfied__type_support.cpp.o[0m
+[7.203s] [ 28%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/plansys2_msgs/action/execute_plan__type_support.cpp.o[0m
+[7.434s] [35m[1mScanning dependencies of target plansys2_msgs__rosidl_typesupport_c[0m
+[7.467s] [ 28%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/plansys2_msgs/msg/action__type_support.cpp.o[0m
+[7.468s] [ 28%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/plansys2_msgs/msg/action_execution__type_support.cpp.o[0m
+[7.486s] [ 29%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/plansys2_msgs/msg/action_execution_info__type_support.cpp.o[0m
+[7.491s] [ 29%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/plansys2_msgs/msg/action_performer_status__type_support.cpp.o[0m
+[7.498s] [ 30%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/plansys2_msgs/msg/knowledge__type_support.cpp.o[0m
+[7.501s] [ 30%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/plansys2_msgs/msg/durative_action__type_support.cpp.o[0m
+[7.504s] [ 30%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/plansys2_msgs/msg/node__type_support.cpp.o[0m
+[7.506s] [ 30%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/plansys2_msgs/msg/param__type_support.cpp.o[0m
+[7.515s] [ 31%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/plansys2_msgs/msg/plan__type_support.cpp.o[0m
+[7.517s] [ 31%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/plansys2_msgs/msg/plan_item__type_support.cpp.o[0m
+[7.518s] [35m[1mScanning dependencies of target plansys2_msgs__rosidl_typesupport_introspection_cpp[0m
+[7.523s] [ 31%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/plansys2_msgs/msg/tree__type_support.cpp.o[0m
+[7.534s] [ 32%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/plansys2_msgs/srv/add_problem__type_support.cpp.o[0m
+[7.542s] [ 32%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/plansys2_msgs/srv/add_problem_goal__type_support.cpp.o[0m
+[7.544s] [ 32%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/plansys2_msgs/srv/exist_node__type_support.cpp.o[0m
+[7.546s] [ 33%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/plansys2_msgs/srv/affect_param__type_support.cpp.o[0m
+[7.547s] [ 33%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/plansys2_msgs/srv/get_domain_actions__type_support.cpp.o[0m
+[7.548s] [ 34%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/plansys2_msgs/srv/get_domain__type_support.cpp.o[0m
+[7.552s] [ 34%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/plansys2_msgs/srv/affect_node__type_support.cpp.o[0m
+[7.557s] [ 34%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/plansys2_msgs/srv/get_domain_action_details__type_support.cpp.o[0m
+[7.557s] [ 35%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/plansys2_msgs/srv/get_domain_durative_action_details__type_support.cpp.o[0m
+[7.566s] [ 35%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/plansys2_msgs/msg/detail/action__type_support.cpp.o[0m
+[7.569s] [ 35%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/plansys2_msgs/srv/get_domain_types__type_support.cpp.o[0m
+[7.583s] [ 36%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/plansys2_msgs/srv/get_plan__type_support.cpp.o[0m
+[7.583s] [ 36%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/plansys2_msgs/srv/get_node_details__type_support.cpp.o[0m
+[7.587s] [ 36%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/plansys2_msgs/msg/detail/action_execution__type_support.cpp.o[0m
+[7.588s] [ 36%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/plansys2_msgs/srv/get_ordered_sub_goals__type_support.cpp.o[0m
+[7.589s] [ 36%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/plansys2_msgs/srv/get_problem__type_support.cpp.o[0m
+[7.606s] [ 37%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/plansys2_msgs/srv/get_problem_goal__type_support.cpp.o[0m
+[7.617s] [ 37%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/plansys2_msgs/srv/get_problem_instances__type_support.cpp.o[0m
+[7.617s] [ 37%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/plansys2_msgs/srv/get_problem_instance_details__type_support.cpp.o[0m
+[7.629s] [ 38%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/plansys2_msgs/srv/get_states__type_support.cpp.o[0m
+[7.629s] [ 38%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/plansys2_msgs/srv/is_problem_goal_satisfied__type_support.cpp.o[0m
+[7.636s] [ 39%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/plansys2_msgs/msg/detail/action_execution_info__type_support.cpp.o[0m
+[7.641s] [ 39%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/plansys2_msgs/srv/remove_problem_goal__type_support.cpp.o[0m
+[7.647s] [ 40%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/plansys2_msgs/srv/clear_problem_knowledge__type_support.cpp.o[0m
+[7.649s] [ 40%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/plansys2_msgs/action/execute_plan__type_support.cpp.o[0m
+[7.659s] [ 40%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/plansys2_msgs/msg/detail/action_performer_status__type_support.cpp.o[0m
+[7.660s] [ 40%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/plansys2_msgs/msg/detail/durative_action__type_support.cpp.o[0m
+[7.667s] [35m[1mScanning dependencies of target plansys2_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[7.668s] [ 40%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/plansys2_msgs/msg/detail/node__type_support.cpp.o[0m
+[7.668s] [ 41%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/plansys2_msgs/msg/detail/knowledge__type_support.cpp.o[0m
+[7.674s] [ 41%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/plansys2_msgs/msg/detail/param__type_support.cpp.o[0m
+[7.687s] [ 41%] [32m[1mLinking CXX shared library libplansys2_msgs__rosidl_typesupport_cpp.so[0m
+[7.696s] [ 42%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/plansys2_msgs/msg/detail/plan__type_support.cpp.o[0m
+[7.698s] [ 42%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/plansys2_msgs/msg/detail/tree__type_support.cpp.o[0m
+[7.698s] [ 42%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/plansys2_msgs/msg/detail/plan_item__type_support.cpp.o[0m
+[7.709s] [ 43%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/plansys2_msgs/srv/detail/add_problem__type_support.cpp.o[0m
+[7.721s] [ 43%] [32m[1mLinking CXX shared library libplansys2_msgs__rosidl_typesupport_c.so[0m
+[7.742s] [ 43%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/plansys2_msgs/msg/detail/dds_fastrtps/action__type_support.cpp.o[0m
+[7.827s] [ 43%] Built target plansys2_msgs__rosidl_typesupport_cpp
+[7.874s] [ 43%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/plansys2_msgs/msg/detail/dds_fastrtps/action_execution__type_support.cpp.o[0m
+[7.884s] [ 43%] Built target plansys2_msgs__rosidl_typesupport_c
+[7.914s] [ 44%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/plansys2_msgs/msg/detail/dds_fastrtps/action_execution_info__type_support.cpp.o[0m
+[7.986s] [ 44%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/plansys2_msgs/srv/detail/add_problem_goal__type_support.cpp.o[0m
+[8.026s] [ 45%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/plansys2_msgs/srv/detail/affect_node__type_support.cpp.o[0m
+[8.043s] [ 45%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/plansys2_msgs/srv/detail/exist_node__type_support.cpp.o[0m
+[8.044s] [ 45%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/plansys2_msgs/srv/detail/affect_param__type_support.cpp.o[0m
+[8.053s] [ 46%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/plansys2_msgs/srv/detail/get_domain__type_support.cpp.o[0m
+[8.053s] [ 46%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/plansys2_msgs/srv/detail/get_domain_actions__type_support.cpp.o[0m
+[8.067s] [ 46%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/plansys2_msgs/srv/detail/get_domain_action_details__type_support.cpp.o[0m
+[8.096s] [ 46%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/plansys2_msgs/msg/detail/dds_fastrtps/action_performer_status__type_support.cpp.o[0m
+[8.178s] [ 47%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/plansys2_msgs/srv/detail/get_domain_durative_action_details__type_support.cpp.o[0m
+[8.191s] [ 47%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/plansys2_msgs/srv/detail/get_domain_types__type_support.cpp.o[0m
+[8.191s] [ 47%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/plansys2_msgs/srv/detail/get_node_details__type_support.cpp.o[0m
+[8.314s] [ 48%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/plansys2_msgs/srv/detail/get_plan__type_support.cpp.o[0m
+[8.415s] [ 48%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/plansys2_msgs/srv/detail/get_ordered_sub_goals__type_support.cpp.o[0m
+[8.465s] [ 48%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/plansys2_msgs/msg/detail/dds_fastrtps/durative_action__type_support.cpp.o[0m
+[8.497s] [ 48%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/plansys2_msgs/srv/detail/get_problem__type_support.cpp.o[0m
+[8.540s] [ 49%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/plansys2_msgs/msg/detail/dds_fastrtps/knowledge__type_support.cpp.o[0m
+[8.568s] [ 50%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/plansys2_msgs/srv/detail/get_problem_goal__type_support.cpp.o[0m
+[8.582s] [ 50%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/plansys2_msgs/srv/detail/get_problem_instances__type_support.cpp.o[0m
+[8.619s] [ 50%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/plansys2_msgs/srv/detail/get_problem_instance_details__type_support.cpp.o[0m
+[8.627s] [ 51%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/plansys2_msgs/srv/detail/get_states__type_support.cpp.o[0m
+[8.647s] [ 51%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/plansys2_msgs/msg/detail/dds_fastrtps/node__type_support.cpp.o[0m
+[8.656s] [ 51%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/plansys2_msgs/srv/detail/is_problem_goal_satisfied__type_support.cpp.o[0m
+[8.664s] [ 52%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/plansys2_msgs/msg/detail/dds_fastrtps/plan__type_support.cpp.o[0m
+[8.664s] [ 52%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/plansys2_msgs/msg/detail/dds_fastrtps/param__type_support.cpp.o[0m
+[8.712s] [ 52%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/plansys2_msgs/msg/detail/dds_fastrtps/plan_item__type_support.cpp.o[0m
+[8.735s] [ 52%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/plansys2_msgs/srv/detail/remove_problem_goal__type_support.cpp.o[0m
+[8.833s] [ 53%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/plansys2_msgs/srv/detail/clear_problem_knowledge__type_support.cpp.o[0m
+[8.834s] [ 53%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/plansys2_msgs/action/detail/execute_plan__type_support.cpp.o[0m
+[8.855s] [ 53%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/plansys2_msgs/msg/detail/dds_fastrtps/tree__type_support.cpp.o[0m
+[8.955s] [ 54%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/plansys2_msgs/srv/detail/dds_fastrtps/add_problem__type_support.cpp.o[0m
+[8.984s] [ 54%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/plansys2_msgs/srv/detail/dds_fastrtps/add_problem_goal__type_support.cpp.o[0m
+[9.006s] [ 54%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/plansys2_msgs/srv/detail/dds_fastrtps/affect_node__type_support.cpp.o[0m
+[9.030s] [35m[1mScanning dependencies of target plansys2_msgs__rosidl_typesupport_introspection_c[0m
+[9.062s] [ 55%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/plansys2_msgs/srv/detail/dds_fastrtps/affect_param__type_support.cpp.o[0m
+[9.072s] [ 55%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/plansys2_msgs/srv/detail/dds_fastrtps/exist_node__type_support.cpp.o[0m
+[9.076s] [ 55%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/plansys2_msgs/srv/detail/dds_fastrtps/get_domain__type_support.cpp.o[0m
+[9.151s] [ 56%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/plansys2_msgs/srv/detail/dds_fastrtps/get_domain_actions__type_support.cpp.o[0m
+[9.170s] [ 56%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/plansys2_msgs/msg/detail/action_execution__type_support.c.o[0m
+[9.177s] [ 56%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/plansys2_msgs/msg/detail/action__type_support.c.o[0m
+[9.231s] [ 56%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/plansys2_msgs/srv/detail/dds_fastrtps/get_domain_action_details__type_support.cpp.o[0m
+[9.232s] [ 57%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/plansys2_msgs/msg/detail/action_execution_info__type_support.c.o[0m
+[9.247s] [ 57%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/plansys2_msgs/msg/detail/action_performer_status__type_support.c.o[0m
+[9.280s] [ 58%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/plansys2_msgs/srv/detail/dds_fastrtps/get_domain_durative_action_details__type_support.cpp.o[0m
+[9.310s] [ 59%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/plansys2_msgs/msg/detail/durative_action__type_support.c.o[0m
+[9.324s] [ 59%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/plansys2_msgs/msg/detail/knowledge__type_support.c.o[0m
+[9.331s] [ 60%] [32m[1mLinking CXX shared library libplansys2_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[9.333s] [ 60%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/plansys2_msgs/srv/detail/dds_fastrtps/get_domain_types__type_support.cpp.o[0m
+[9.342s] [ 60%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/plansys2_msgs/msg/detail/node__type_support.c.o[0m
+[9.423s] [ 61%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/plansys2_msgs/msg/detail/param__type_support.c.o[0m
+[9.423s] [ 61%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/plansys2_msgs/msg/detail/plan__type_support.c.o[0m
+[9.455s] [ 61%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/plansys2_msgs/msg/detail/plan_item__type_support.c.o[0m
+[9.469s] [ 62%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/plansys2_msgs/srv/detail/dds_fastrtps/get_plan__type_support.cpp.o[0m
+[9.476s] [ 62%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/plansys2_msgs/srv/detail/dds_fastrtps/get_node_details__type_support.cpp.o[0m
+[9.480s] [ 63%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/plansys2_msgs/msg/detail/tree__type_support.c.o[0m
+[9.495s] [ 63%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/plansys2_msgs/srv/detail/dds_fastrtps/get_ordered_sub_goals__type_support.cpp.o[0m
+[9.498s] [ 63%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/plansys2_msgs/srv/detail/dds_fastrtps/get_problem__type_support.cpp.o[0m
+[9.511s] [ 63%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/plansys2_msgs/srv/detail/add_problem__type_support.c.o[0m
+[9.530s] [ 64%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/plansys2_msgs/srv/detail/dds_fastrtps/get_problem_goal__type_support.cpp.o[0m
+[9.533s] [ 64%] Built target plansys2_msgs__rosidl_typesupport_introspection_cpp
+[9.544s] [ 64%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/plansys2_msgs/srv/detail/dds_fastrtps/get_problem_instances__type_support.cpp.o[0m
+[9.556s] [ 64%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/plansys2_msgs/srv/detail/add_problem_goal__type_support.c.o[0m
+[9.561s] [ 65%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/plansys2_msgs/srv/detail/affect_node__type_support.c.o[0m
+[9.567s] [ 65%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/plansys2_msgs/srv/detail/dds_fastrtps/get_problem_instance_details__type_support.cpp.o[0m
+[9.579s] [ 66%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/plansys2_msgs/srv/detail/dds_fastrtps/get_states__type_support.cpp.o[0m
+[9.610s] [ 66%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/plansys2_msgs/srv/detail/affect_param__type_support.c.o[0m
+[9.610s] [ 66%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/plansys2_msgs/srv/detail/exist_node__type_support.c.o[0m
+[9.619s] [ 66%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/plansys2_msgs/srv/detail/dds_fastrtps/is_problem_goal_satisfied__type_support.cpp.o[0m
+[9.632s] [ 66%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/plansys2_msgs/srv/detail/dds_fastrtps/remove_problem_goal__type_support.cpp.o[0m
+[9.684s] [ 67%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/plansys2_msgs/srv/detail/dds_fastrtps/clear_problem_knowledge__type_support.cpp.o[0m
+[9.735s] [ 67%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/plansys2_msgs/action/detail/dds_fastrtps/execute_plan__type_support.cpp.o[0m
+[9.742s] [ 68%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/plansys2_msgs/srv/detail/get_domain__type_support.c.o[0m
+[9.798s] [ 68%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/plansys2_msgs/srv/detail/get_domain_actions__type_support.c.o[0m
+[9.821s] [ 69%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/plansys2_msgs/srv/detail/get_domain_durative_action_details__type_support.c.o[0m
+[9.838s] [ 69%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/plansys2_msgs/srv/detail/get_domain_action_details__type_support.c.o[0m
+[9.909s] [ 69%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/plansys2_msgs/srv/detail/get_domain_types__type_support.c.o[0m
+[9.921s] [ 69%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/plansys2_msgs/srv/detail/get_node_details__type_support.c.o[0m
+[9.930s] [ 70%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/plansys2_msgs/srv/detail/get_plan__type_support.c.o[0m
+[9.943s] [ 70%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/plansys2_msgs/srv/detail/get_ordered_sub_goals__type_support.c.o[0m
+[9.967s] [ 70%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/plansys2_msgs/srv/detail/get_problem__type_support.c.o[0m
+[9.975s] [ 71%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/plansys2_msgs/srv/detail/get_problem_goal__type_support.c.o[0m
+[9.983s] [ 71%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/plansys2_msgs/srv/detail/get_problem_instances__type_support.c.o[0m
+[9.995s] [ 72%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/plansys2_msgs/srv/detail/get_problem_instance_details__type_support.c.o[0m
+[10.012s] [ 72%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/plansys2_msgs/srv/detail/is_problem_goal_satisfied__type_support.c.o[0m
+[10.016s] [ 72%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/plansys2_msgs/srv/detail/get_states__type_support.c.o[0m
+[10.026s] [ 73%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/plansys2_msgs/srv/detail/remove_problem_goal__type_support.c.o[0m
+[10.027s] [ 73%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/plansys2_msgs/srv/detail/clear_problem_knowledge__type_support.c.o[0m
+[10.035s] [ 73%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/plansys2_msgs/action/detail/execute_plan__type_support.c.o[0m
+[10.087s] [ 74%] [32m[1mLinking C shared library libplansys2_msgs__rosidl_typesupport_introspection_c.so[0m
+[10.124s] [ 74%] Built target plansys2_msgs__rosidl_typesupport_introspection_c
+[10.237s] [ 74%] [32m[1mLinking CXX shared library libplansys2_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[10.318s] [ 74%] Built target plansys2_msgs__rosidl_typesupport_fastrtps_cpp
+[10.327s] [ 75%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[12.181s] [35m[1mScanning dependencies of target plansys2_msgs__rosidl_typesupport_fastrtps_c[0m
+[12.229s] [ 75%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/plansys2_msgs/msg/detail/action__type_support_c.cpp.o[0m
+[12.230s] [ 75%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/plansys2_msgs/msg/detail/action_execution__type_support_c.cpp.o[0m
+[12.235s] [ 76%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/plansys2_msgs/msg/detail/knowledge__type_support_c.cpp.o[0m
+[12.236s] [ 77%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/plansys2_msgs/msg/detail/tree__type_support_c.cpp.o[0m
+[12.236s] [ 77%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/plansys2_msgs/srv/detail/add_problem__type_support_c.cpp.o[0m
+[12.236s] [ 77%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/plansys2_msgs/msg/detail/node__type_support_c.cpp.o[0m
+[12.238s] [ 77%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/plansys2_msgs/msg/detail/plan_item__type_support_c.cpp.o[0m
+[12.238s] [ 77%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/plansys2_msgs/msg/detail/action_performer_status__type_support_c.cpp.o[0m
+[12.238s] [ 78%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/plansys2_msgs/srv/detail/affect_node__type_support_c.cpp.o[0m
+[12.238s] [ 79%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/plansys2_msgs/msg/detail/plan__type_support_c.cpp.o[0m
+[12.239s] [ 79%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/plansys2_msgs/msg/detail/param__type_support_c.cpp.o[0m
+[12.239s] [ 80%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/plansys2_msgs/msg/detail/action_execution_info__type_support_c.cpp.o[0m
+[12.241s] [ 80%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/plansys2_msgs/srv/detail/affect_param__type_support_c.cpp.o[0m
+[12.242s] [ 80%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/plansys2_msgs/msg/detail/durative_action__type_support_c.cpp.o[0m
+[12.242s] [ 80%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/plansys2_msgs/srv/detail/add_problem_goal__type_support_c.cpp.o[0m
+[12.245s] [ 80%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/plansys2_msgs/srv/detail/exist_node__type_support_c.cpp.o[0m
+[12.641s] [ 80%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/plansys2_msgs/srv/detail/get_domain_actions__type_support_c.cpp.o[0m
+[12.642s] [ 81%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/plansys2_msgs/srv/detail/get_domain__type_support_c.cpp.o[0m
+[12.643s] [ 81%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/plansys2_msgs/srv/detail/get_domain_action_details__type_support_c.cpp.o[0m
+[12.649s] [ 81%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/plansys2_msgs/srv/detail/get_domain_types__type_support_c.cpp.o[0m
+[12.650s] [ 81%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/plansys2_msgs/srv/detail/get_node_details__type_support_c.cpp.o[0m
+[12.653s] [ 82%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/plansys2_msgs/srv/detail/get_domain_durative_action_details__type_support_c.cpp.o[0m
+[12.678s] [ 82%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/plansys2_msgs/srv/detail/get_ordered_sub_goals__type_support_c.cpp.o[0m
+[12.680s] [ 82%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/plansys2_msgs/srv/detail/get_problem__type_support_c.cpp.o[0m
+[12.694s] [ 83%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/plansys2_msgs/srv/detail/get_plan__type_support_c.cpp.o[0m
+[12.724s] [ 84%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/plansys2_msgs/srv/detail/get_problem_goal__type_support_c.cpp.o[0m
+[12.735s] [ 84%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/plansys2_msgs/srv/detail/get_problem_instances__type_support_c.cpp.o[0m
+[12.742s] [ 84%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/plansys2_msgs/srv/detail/get_problem_instance_details__type_support_c.cpp.o[0m
+[12.775s] [ 85%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/plansys2_msgs/srv/detail/get_states__type_support_c.cpp.o[0m
+[12.813s] [ 85%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/plansys2_msgs/srv/detail/remove_problem_goal__type_support_c.cpp.o[0m
+[12.813s] [ 85%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/plansys2_msgs/srv/detail/is_problem_goal_satisfied__type_support_c.cpp.o[0m
+[12.874s] [ 86%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/plansys2_msgs/srv/detail/clear_problem_knowledge__type_support_c.cpp.o[0m
+[13.008s] [ 86%] [32mBuilding CXX object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/plansys2_msgs/action/detail/execute_plan__type_support_c.cpp.o[0m
+[13.268s] [ 87%] [32m[1mLinking CXX shared library libplansys2_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[13.337s] [ 87%] Built target plansys2_msgs__rosidl_typesupport_fastrtps_c
+[13.345s] [35m[1mScanning dependencies of target plansys2_msgs[0m
+[13.354s] [ 87%] Built target plansys2_msgs
+[13.362s] [35m[1mScanning dependencies of target plansys2_msgs__py[0m
+[13.370s] [ 87%] [34m[1mGenerating Python code for ROS interfaces[0m
+[17.804s] [ 87%] Built target plansys2_msgs__py
+[17.812s] [35m[1mScanning dependencies of target plansys2_msgs__python[0m
+[17.865s] [ 88%] [32mBuilding C object CMakeFiles/plansys2_msgs__python.dir/rosidl_generator_py/plansys2_msgs/msg/_action_s.c.o[0m
+[17.868s] [ 88%] [32mBuilding C object CMakeFiles/plansys2_msgs__python.dir/rosidl_generator_py/plansys2_msgs/msg/_action_execution_info_s.c.o[0m
+[17.868s] [ 89%] [32mBuilding C object CMakeFiles/plansys2_msgs__python.dir/rosidl_generator_py/plansys2_msgs/msg/_action_performer_status_s.c.o[0m
+[17.870s] [ 89%] [32mBuilding C object CMakeFiles/plansys2_msgs__python.dir/rosidl_generator_py/plansys2_msgs/msg/_param_s.c.o[0m
+[17.871s] [ 90%] [32mBuilding C object CMakeFiles/plansys2_msgs__python.dir/rosidl_generator_py/plansys2_msgs/msg/_node_s.c.o[0m
+[17.871s] [ 90%] [32mBuilding C object CMakeFiles/plansys2_msgs__python.dir/rosidl_generator_py/plansys2_msgs/msg/_durative_action_s.c.o[0m
+[17.872s] [ 90%] [32mBuilding C object CMakeFiles/plansys2_msgs__python.dir/rosidl_generator_py/plansys2_msgs/msg/_action_execution_s.c.o[0m
+[17.873s] [ 90%] [32mBuilding C object CMakeFiles/plansys2_msgs__python.dir/rosidl_generator_py/plansys2_msgs/srv/_add_problem_s.c.o[0m
+[17.873s] [ 90%] [32mBuilding C object CMakeFiles/plansys2_msgs__python.dir/rosidl_generator_py/plansys2_msgs/srv/_affect_node_s.c.o[0m
+[17.873s] [ 90%] [32mBuilding C object CMakeFiles/plansys2_msgs__python.dir/rosidl_generator_py/plansys2_msgs/msg/_tree_s.c.o[0m
+[17.873s] [ 90%] [32mBuilding C object CMakeFiles/plansys2_msgs__python.dir/rosidl_generator_py/plansys2_msgs/msg/_knowledge_s.c.o[0m
+[17.874s] [ 90%] [32mBuilding C object CMakeFiles/plansys2_msgs__python.dir/rosidl_generator_py/plansys2_msgs/msg/_plan_s.c.o[0m
+[17.874s] [ 91%] [32mBuilding C object CMakeFiles/plansys2_msgs__python.dir/rosidl_generator_py/plansys2_msgs/msg/_plan_item_s.c.o[0m
+[17.875s] [ 91%] [32mBuilding C object CMakeFiles/plansys2_msgs__python.dir/rosidl_generator_py/plansys2_msgs/srv/_affect_param_s.c.o[0m
+[17.875s] [ 93%] [32mBuilding C object CMakeFiles/plansys2_msgs__python.dir/rosidl_generator_py/plansys2_msgs/srv/_exist_node_s.c.o[0m
+[17.875s] [ 93%] [32mBuilding C object CMakeFiles/plansys2_msgs__python.dir/rosidl_generator_py/plansys2_msgs/srv/_add_problem_goal_s.c.o[0m
+[17.980s] [ 93%] [32mBuilding C object CMakeFiles/plansys2_msgs__python.dir/rosidl_generator_py/plansys2_msgs/srv/_get_domain_s.c.o[0m
+[17.981s] [ 94%] [32mBuilding C object CMakeFiles/plansys2_msgs__python.dir/rosidl_generator_py/plansys2_msgs/srv/_get_domain_types_s.c.o[0m
+[17.982s] [ 94%] [32mBuilding C object CMakeFiles/plansys2_msgs__python.dir/rosidl_generator_py/plansys2_msgs/srv/_get_node_details_s.c.o[0m
+[17.982s] [ 94%] [32mBuilding C object CMakeFiles/plansys2_msgs__python.dir/rosidl_generator_py/plansys2_msgs/srv/_get_domain_actions_s.c.o[0m
+[17.983s] [ 94%] [32mBuilding C object CMakeFiles/plansys2_msgs__python.dir/rosidl_generator_py/plansys2_msgs/srv/_get_domain_durative_action_details_s.c.o[0m
+[17.983s] [ 95%] [32mBuilding C object CMakeFiles/plansys2_msgs__python.dir/rosidl_generator_py/plansys2_msgs/srv/_get_domain_action_details_s.c.o[0m
+[17.985s] [ 95%] [32mBuilding C object CMakeFiles/plansys2_msgs__python.dir/rosidl_generator_py/plansys2_msgs/srv/_get_plan_s.c.o[0m
+[17.986s] [ 95%] [32mBuilding C object CMakeFiles/plansys2_msgs__python.dir/rosidl_generator_py/plansys2_msgs/srv/_get_problem_s.c.o[0m
+[17.991s] [ 96%] [32mBuilding C object CMakeFiles/plansys2_msgs__python.dir/rosidl_generator_py/plansys2_msgs/srv/_get_ordered_sub_goals_s.c.o[0m
+[17.997s] [ 97%] [32mBuilding C object CMakeFiles/plansys2_msgs__python.dir/rosidl_generator_py/plansys2_msgs/srv/_get_problem_instances_s.c.o[0m
+[18.000s] [ 97%] [32mBuilding C object CMakeFiles/plansys2_msgs__python.dir/rosidl_generator_py/plansys2_msgs/srv/_get_problem_instance_details_s.c.o[0m
+[18.002s] [ 97%] [32mBuilding C object CMakeFiles/plansys2_msgs__python.dir/rosidl_generator_py/plansys2_msgs/srv/_get_problem_goal_s.c.o[0m
+[18.003s] [ 97%] [32mBuilding C object CMakeFiles/plansys2_msgs__python.dir/rosidl_generator_py/plansys2_msgs/srv/_get_states_s.c.o[0m
+[18.015s] [ 97%] [32mBuilding C object CMakeFiles/plansys2_msgs__python.dir/rosidl_generator_py/plansys2_msgs/srv/_remove_problem_goal_s.c.o[0m
+[18.016s] [ 98%] [32mBuilding C object CMakeFiles/plansys2_msgs__python.dir/rosidl_generator_py/plansys2_msgs/srv/_is_problem_goal_satisfied_s.c.o[0m
+[18.026s] [ 98%] [32mBuilding C object CMakeFiles/plansys2_msgs__python.dir/rosidl_generator_py/plansys2_msgs/srv/_clear_problem_knowledge_s.c.o[0m
+[18.092s] [ 99%] [32mBuilding C object CMakeFiles/plansys2_msgs__python.dir/rosidl_generator_py/plansys2_msgs/action/_execute_plan_s.c.o[0m
+[18.191s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/plansys2_msgs/libplansys2_msgs__python.so[0m
+[18.230s] [ 99%] Built target plansys2_msgs__python
+[18.238s] [35m[1mScanning dependencies of target plansys2_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[18.238s] [35m[1mScanning dependencies of target plansys2_msgs__rosidl_typesupport_c__pyext[0m
+[18.238s] [35m[1mScanning dependencies of target plansys2_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[18.256s] [ 99%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/plansys2_msgs/_plansys2_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[18.256s] [100%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/plansys2_msgs/_plansys2_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[18.257s] [100%] [32mBuilding C object CMakeFiles/plansys2_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/plansys2_msgs/_plansys2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[18.437s] [100%] [32m[1mLinking C shared library rosidl_generator_py/plansys2_msgs/plansys2_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[18.437s] [100%] [32m[1mLinking C shared library rosidl_generator_py/plansys2_msgs/plansys2_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[18.440s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/plansys2_msgs/plansys2_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[18.469s] [100%] Built target plansys2_msgs__rosidl_typesupport_introspection_c__pyext
+[18.470s] [100%] Built target plansys2_msgs__rosidl_typesupport_c__pyext
+[18.492s] [100%] Built target plansys2_msgs__rosidl_typesupport_fastrtps_c__pyext
+[18.501s] Invoked command in '/root/ros2_ws/src/build/plansys2_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/ros2_aruco:/opt/ros/foxy /usr/bin/cmake --build /root/ros2_ws/src/build/plansys2_msgs -- -j16 -l16
+[18.504s] Invoking command in '/root/ros2_ws/src/build/plansys2_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/ros2_aruco:/opt/ros/foxy /usr/bin/cmake --install /root/ros2_ws/src/build/plansys2_msgs
+[18.510s] -- Install configuration: ""
+[18.511s] -- Execute custom install script
+[18.511s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/ament_index/resource_index/rosidl_interfaces/plansys2_msgs
+[18.519s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/action/detail/execute_plan__functions.h
+[18.526s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/action/detail/execute_plan__struct.h
+[18.532s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/action/detail/execute_plan__type_support.h
+[18.538s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/action/execute_plan.h
+[18.544s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/action.h
+[18.551s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/action_execution.h
+[18.558s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/action_execution_info.h
+[18.563s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/action_performer_status.h
+[18.569s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/action__functions.h
+[18.575s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/action__struct.h
+[18.582s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/action__type_support.h
+[18.593s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/action_execution__functions.h
+[18.600s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/action_execution__struct.h
+[18.607s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/action_execution__type_support.h
+[18.613s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/action_execution_info__functions.h
+[18.619s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/action_execution_info__struct.h
+[18.625s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/action_execution_info__type_support.h
+[18.631s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/action_performer_status__functions.h
+[18.637s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/action_performer_status__struct.h
+[18.643s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/action_performer_status__type_support.h
+[18.650s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/durative_action__functions.h
+[18.655s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/durative_action__struct.h
+[18.661s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/durative_action__type_support.h
+[18.667s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/knowledge__functions.h
+[18.673s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/knowledge__struct.h
+[18.680s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/knowledge__type_support.h
+[18.685s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/node__functions.h
+[18.691s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/node__struct.h
+[18.697s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/node__type_support.h
+[18.703s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/param__functions.h
+[18.709s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/param__struct.h
+[18.715s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/param__type_support.h
+[18.721s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/plan__functions.h
+[18.727s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/plan__struct.h
+[18.733s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/plan__type_support.h
+[18.739s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/plan_item__functions.h
+[18.745s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/plan_item__struct.h
+[18.751s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/plan_item__type_support.h
+[18.757s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/tree__functions.h
+[18.763s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/tree__struct.h
+[18.769s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/tree__type_support.h
+[18.775s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/durative_action.h
+[18.781s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/knowledge.h
+[18.787s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/node.h
+[18.793s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/param.h
+[18.799s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/plan.h
+[18.805s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/plan_item.h
+[18.812s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/rosidl_generator_c__visibility_control.h
+[18.818s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/tree.h
+[18.824s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/add_problem.h
+[18.830s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/add_problem_goal.h
+[18.837s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/affect_node.h
+[18.843s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/affect_param.h
+[18.849s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/clear_problem_knowledge.h
+[18.856s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/add_problem__functions.h
+[18.862s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/add_problem__struct.h
+[18.868s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/add_problem__type_support.h
+[18.874s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/add_problem_goal__functions.h
+[18.880s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/add_problem_goal__struct.h
+[18.886s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/add_problem_goal__type_support.h
+[18.892s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/affect_node__functions.h
+[18.898s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/affect_node__struct.h
+[18.906s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/affect_node__type_support.h
+[18.911s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/affect_param__functions.h
+[18.917s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/affect_param__struct.h
+[18.924s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/affect_param__type_support.h
+[18.930s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/clear_problem_knowledge__functions.h
+[18.937s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/clear_problem_knowledge__struct.h
+[18.943s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/clear_problem_knowledge__type_support.h
+[18.949s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/exist_node__functions.h
+[18.956s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/exist_node__struct.h
+[18.963s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/exist_node__type_support.h
+[18.970s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_domain__functions.h
+[18.976s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_domain__struct.h
+[18.983s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_domain__type_support.h
+[18.989s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_domain_action_details__functions.h
+[18.995s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_domain_action_details__struct.h
+[19.001s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_domain_action_details__type_support.h
+[19.008s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_domain_actions__functions.h
+[19.014s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_domain_actions__struct.h
+[19.019s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_domain_actions__type_support.h
+[19.025s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_domain_durative_action_details__functions.h
+[19.031s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_domain_durative_action_details__struct.h
+[19.037s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_domain_durative_action_details__type_support.h
+[19.043s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_domain_types__functions.h
+[19.049s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_domain_types__struct.h
+[19.055s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_domain_types__type_support.h
+[19.061s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_node_details__functions.h
+[19.067s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_node_details__struct.h
+[19.073s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_node_details__type_support.h
+[19.079s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_ordered_sub_goals__functions.h
+[19.085s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_ordered_sub_goals__struct.h
+[19.091s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_ordered_sub_goals__type_support.h
+[19.098s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_plan__functions.h
+[19.104s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_plan__struct.h
+[19.110s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_plan__type_support.h
+[19.117s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_problem__functions.h
+[19.123s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_problem__struct.h
+[19.129s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_problem__type_support.h
+[19.135s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_problem_goal__functions.h
+[19.141s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_problem_goal__struct.h
+[19.147s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_problem_goal__type_support.h
+[19.153s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_problem_instance_details__functions.h
+[19.159s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_problem_instance_details__struct.h
+[19.165s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_problem_instance_details__type_support.h
+[19.171s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_problem_instances__functions.h
+[19.177s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_problem_instances__struct.h
+[19.184s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_problem_instances__type_support.h
+[19.190s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_states__functions.h
+[19.196s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_states__struct.h
+[19.203s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_states__type_support.h
+[19.210s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/is_problem_goal_satisfied__functions.h
+[19.216s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/is_problem_goal_satisfied__struct.h
+[19.222s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/is_problem_goal_satisfied__type_support.h
+[19.228s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/remove_problem_goal__functions.h
+[19.234s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/remove_problem_goal__struct.h
+[19.241s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/remove_problem_goal__type_support.h
+[19.247s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/exist_node.h
+[19.253s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/get_domain.h
+[19.258s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/get_domain_action_details.h
+[19.265s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/get_domain_actions.h
+[19.271s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/get_domain_durative_action_details.h
+[19.277s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/get_domain_types.h
+[19.283s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/get_node_details.h
+[19.289s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/get_ordered_sub_goals.h
+[19.295s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/get_plan.h
+[19.301s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/get_problem.h
+[19.307s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/get_problem_goal.h
+[19.313s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/get_problem_instance_details.h
+[19.319s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/get_problem_instances.h
+[19.325s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/get_states.h
+[19.331s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/is_problem_goal_satisfied.h
+[19.337s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/remove_problem_goal.h
+[19.343s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/environment/library_path.sh
+[19.350s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/environment/library_path.dsv
+[19.357s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/action/detail/execute_plan__rosidl_typesupport_fastrtps_c.h
+[19.363s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/action__rosidl_typesupport_fastrtps_c.h
+[19.370s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/action_execution__rosidl_typesupport_fastrtps_c.h
+[19.376s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/action_execution_info__rosidl_typesupport_fastrtps_c.h
+[19.382s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/action_performer_status__rosidl_typesupport_fastrtps_c.h
+[19.389s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/durative_action__rosidl_typesupport_fastrtps_c.h
+[19.395s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/knowledge__rosidl_typesupport_fastrtps_c.h
+[19.401s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/node__rosidl_typesupport_fastrtps_c.h
+[19.407s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/param__rosidl_typesupport_fastrtps_c.h
+[19.414s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/plan__rosidl_typesupport_fastrtps_c.h
+[19.420s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/plan_item__rosidl_typesupport_fastrtps_c.h
+[19.426s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/tree__rosidl_typesupport_fastrtps_c.h
+[19.432s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[19.438s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/add_problem__rosidl_typesupport_fastrtps_c.h
+[19.445s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/add_problem_goal__rosidl_typesupport_fastrtps_c.h
+[19.451s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/affect_node__rosidl_typesupport_fastrtps_c.h
+[19.456s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/affect_param__rosidl_typesupport_fastrtps_c.h
+[19.462s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/clear_problem_knowledge__rosidl_typesupport_fastrtps_c.h
+[19.468s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/exist_node__rosidl_typesupport_fastrtps_c.h
+[19.474s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_domain__rosidl_typesupport_fastrtps_c.h
+[19.480s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_domain_action_details__rosidl_typesupport_fastrtps_c.h
+[19.486s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_domain_actions__rosidl_typesupport_fastrtps_c.h
+[19.491s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_domain_durative_action_details__rosidl_typesupport_fastrtps_c.h
+[19.498s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_domain_types__rosidl_typesupport_fastrtps_c.h
+[19.504s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_node_details__rosidl_typesupport_fastrtps_c.h
+[19.509s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_ordered_sub_goals__rosidl_typesupport_fastrtps_c.h
+[19.515s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_plan__rosidl_typesupport_fastrtps_c.h
+[19.521s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_problem__rosidl_typesupport_fastrtps_c.h
+[19.528s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_problem_goal__rosidl_typesupport_fastrtps_c.h
+[19.534s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_problem_instance_details__rosidl_typesupport_fastrtps_c.h
+[19.540s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_problem_instances__rosidl_typesupport_fastrtps_c.h
+[19.546s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_states__rosidl_typesupport_fastrtps_c.h
+[19.552s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/is_problem_goal_satisfied__rosidl_typesupport_fastrtps_c.h
+[19.558s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/remove_problem_goal__rosidl_typesupport_fastrtps_c.h
+[19.565s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/lib/libplansys2_msgs__rosidl_typesupport_fastrtps_c.so
+[19.572s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/action/detail/execute_plan__rosidl_typesupport_fastrtps_cpp.hpp
+[19.578s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/action__rosidl_typesupport_fastrtps_cpp.hpp
+[19.584s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/action_execution__rosidl_typesupport_fastrtps_cpp.hpp
+[19.591s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/action_execution_info__rosidl_typesupport_fastrtps_cpp.hpp
+[19.596s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/action_performer_status__rosidl_typesupport_fastrtps_cpp.hpp
+[19.602s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/durative_action__rosidl_typesupport_fastrtps_cpp.hpp
+[19.608s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/knowledge__rosidl_typesupport_fastrtps_cpp.hpp
+[19.614s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/node__rosidl_typesupport_fastrtps_cpp.hpp
+[19.619s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/param__rosidl_typesupport_fastrtps_cpp.hpp
+[19.625s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/plan__rosidl_typesupport_fastrtps_cpp.hpp
+[19.631s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/plan_item__rosidl_typesupport_fastrtps_cpp.hpp
+[19.637s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/tree__rosidl_typesupport_fastrtps_cpp.hpp
+[19.643s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[19.650s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/add_problem__rosidl_typesupport_fastrtps_cpp.hpp
+[19.657s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/add_problem_goal__rosidl_typesupport_fastrtps_cpp.hpp
+[19.664s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/affect_node__rosidl_typesupport_fastrtps_cpp.hpp
+[19.670s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/affect_param__rosidl_typesupport_fastrtps_cpp.hpp
+[19.676s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/clear_problem_knowledge__rosidl_typesupport_fastrtps_cpp.hpp
+[19.683s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/exist_node__rosidl_typesupport_fastrtps_cpp.hpp
+[19.689s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_domain__rosidl_typesupport_fastrtps_cpp.hpp
+[19.695s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_domain_action_details__rosidl_typesupport_fastrtps_cpp.hpp
+[19.702s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_domain_actions__rosidl_typesupport_fastrtps_cpp.hpp
+[19.708s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_domain_durative_action_details__rosidl_typesupport_fastrtps_cpp.hpp
+[19.714s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_domain_types__rosidl_typesupport_fastrtps_cpp.hpp
+[19.722s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_node_details__rosidl_typesupport_fastrtps_cpp.hpp
+[19.730s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_ordered_sub_goals__rosidl_typesupport_fastrtps_cpp.hpp
+[19.737s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_plan__rosidl_typesupport_fastrtps_cpp.hpp
+[19.743s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_problem__rosidl_typesupport_fastrtps_cpp.hpp
+[19.749s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_problem_goal__rosidl_typesupport_fastrtps_cpp.hpp
+[19.755s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_problem_instance_details__rosidl_typesupport_fastrtps_cpp.hpp
+[19.761s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_problem_instances__rosidl_typesupport_fastrtps_cpp.hpp
+[19.767s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_states__rosidl_typesupport_fastrtps_cpp.hpp
+[19.774s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/is_problem_goal_satisfied__rosidl_typesupport_fastrtps_cpp.hpp
+[19.780s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/remove_problem_goal__rosidl_typesupport_fastrtps_cpp.hpp
+[19.787s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/lib/libplansys2_msgs__rosidl_typesupport_fastrtps_cpp.so
+[19.793s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/action/detail/execute_plan__rosidl_typesupport_introspection_c.h
+[19.800s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/action__rosidl_typesupport_introspection_c.h
+[19.806s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/action_execution__rosidl_typesupport_introspection_c.h
+[19.811s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/action_execution_info__rosidl_typesupport_introspection_c.h
+[19.818s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/action_performer_status__rosidl_typesupport_introspection_c.h
+[19.823s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/durative_action__rosidl_typesupport_introspection_c.h
+[19.831s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/knowledge__rosidl_typesupport_introspection_c.h
+[19.837s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/node__rosidl_typesupport_introspection_c.h
+[19.843s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/param__rosidl_typesupport_introspection_c.h
+[19.850s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/plan__rosidl_typesupport_introspection_c.h
+[19.856s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/plan_item__rosidl_typesupport_introspection_c.h
+[19.862s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/tree__rosidl_typesupport_introspection_c.h
+[19.869s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[19.875s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/add_problem__rosidl_typesupport_introspection_c.h
+[19.881s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/add_problem_goal__rosidl_typesupport_introspection_c.h
+[19.887s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/affect_node__rosidl_typesupport_introspection_c.h
+[19.893s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/affect_param__rosidl_typesupport_introspection_c.h
+[19.899s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/clear_problem_knowledge__rosidl_typesupport_introspection_c.h
+[19.905s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/exist_node__rosidl_typesupport_introspection_c.h
+[19.911s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_domain__rosidl_typesupport_introspection_c.h
+[19.917s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_domain_action_details__rosidl_typesupport_introspection_c.h
+[19.923s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_domain_actions__rosidl_typesupport_introspection_c.h
+[19.930s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_domain_durative_action_details__rosidl_typesupport_introspection_c.h
+[19.936s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_domain_types__rosidl_typesupport_introspection_c.h
+[19.942s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_node_details__rosidl_typesupport_introspection_c.h
+[19.949s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_ordered_sub_goals__rosidl_typesupport_introspection_c.h
+[19.956s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_plan__rosidl_typesupport_introspection_c.h
+[19.963s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_problem__rosidl_typesupport_introspection_c.h
+[19.969s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_problem_goal__rosidl_typesupport_introspection_c.h
+[19.975s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_problem_instance_details__rosidl_typesupport_introspection_c.h
+[19.984s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_problem_instances__rosidl_typesupport_introspection_c.h
+[19.992s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_states__rosidl_typesupport_introspection_c.h
+[20.001s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/is_problem_goal_satisfied__rosidl_typesupport_introspection_c.h
+[20.010s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/remove_problem_goal__rosidl_typesupport_introspection_c.h
+[20.019s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/action/detail/execute_plan__builder.hpp
+[20.025s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/action/detail/execute_plan__struct.hpp
+[20.030s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/action/detail/execute_plan__traits.hpp
+[20.037s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/action/detail/execute_plan__type_support.hpp
+[20.044s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/action/execute_plan.hpp
+[20.052s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/action.hpp
+[20.058s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/action_execution.hpp
+[20.064s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/action_execution_info.hpp
+[20.070s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/action_performer_status.hpp
+[20.077s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/action__builder.hpp
+[20.083s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/action__struct.hpp
+[20.089s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/action__traits.hpp
+[20.096s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/action__type_support.hpp
+[20.103s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/action_execution__builder.hpp
+[20.109s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/action_execution__struct.hpp
+[20.115s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/action_execution__traits.hpp
+[20.121s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/action_execution__type_support.hpp
+[20.127s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/action_execution_info__builder.hpp
+[20.134s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/action_execution_info__struct.hpp
+[20.142s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/action_execution_info__traits.hpp
+[20.148s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/action_execution_info__type_support.hpp
+[20.154s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/action_performer_status__builder.hpp
+[20.160s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/action_performer_status__struct.hpp
+[20.166s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/action_performer_status__traits.hpp
+[20.172s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/action_performer_status__type_support.hpp
+[20.179s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/durative_action__builder.hpp
+[20.186s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/durative_action__struct.hpp
+[20.192s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/durative_action__traits.hpp
+[20.199s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/durative_action__type_support.hpp
+[20.205s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/knowledge__builder.hpp
+[20.211s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/knowledge__struct.hpp
+[20.217s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/knowledge__traits.hpp
+[20.223s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/knowledge__type_support.hpp
+[20.229s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/node__builder.hpp
+[20.235s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/node__struct.hpp
+[20.241s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/node__traits.hpp
+[20.247s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/node__type_support.hpp
+[20.253s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/param__builder.hpp
+[20.260s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/param__struct.hpp
+[20.266s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/param__traits.hpp
+[20.272s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/param__type_support.hpp
+[20.278s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/plan__builder.hpp
+[20.284s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/plan__struct.hpp
+[20.291s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/plan__traits.hpp
+[20.297s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/plan__type_support.hpp
+[20.303s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/plan_item__builder.hpp
+[20.309s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/plan_item__struct.hpp
+[20.316s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/plan_item__traits.hpp
+[20.322s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/plan_item__type_support.hpp
+[20.328s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/tree__builder.hpp
+[20.334s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/tree__struct.hpp
+[20.342s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/tree__traits.hpp
+[20.349s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/tree__type_support.hpp
+[20.355s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/durative_action.hpp
+[20.362s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/knowledge.hpp
+[20.368s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/node.hpp
+[20.374s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/param.hpp
+[20.380s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/plan.hpp
+[20.386s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/plan_item.hpp
+[20.392s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[20.398s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/tree.hpp
+[20.404s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/add_problem.hpp
+[20.411s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/add_problem_goal.hpp
+[20.417s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/affect_node.hpp
+[20.423s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/affect_param.hpp
+[20.430s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/clear_problem_knowledge.hpp
+[20.436s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/add_problem__builder.hpp
+[20.443s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/add_problem__struct.hpp
+[20.449s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/add_problem__traits.hpp
+[20.455s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/add_problem__type_support.hpp
+[20.462s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/add_problem_goal__builder.hpp
+[20.469s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/add_problem_goal__struct.hpp
+[20.475s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/add_problem_goal__traits.hpp
+[20.481s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/add_problem_goal__type_support.hpp
+[20.488s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/affect_node__builder.hpp
+[20.494s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/affect_node__struct.hpp
+[20.500s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/affect_node__traits.hpp
+[20.506s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/affect_node__type_support.hpp
+[20.512s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/affect_param__builder.hpp
+[20.518s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/affect_param__struct.hpp
+[20.524s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/affect_param__traits.hpp
+[20.530s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/affect_param__type_support.hpp
+[20.538s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/clear_problem_knowledge__builder.hpp
+[20.544s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/clear_problem_knowledge__struct.hpp
+[20.550s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/clear_problem_knowledge__traits.hpp
+[20.557s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/clear_problem_knowledge__type_support.hpp
+[20.563s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/exist_node__builder.hpp
+[20.570s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/exist_node__struct.hpp
+[20.577s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/exist_node__traits.hpp
+[20.584s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/exist_node__type_support.hpp
+[20.590s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_domain__builder.hpp
+[20.596s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_domain__struct.hpp
+[20.609s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_domain__traits.hpp
+[20.616s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_domain__type_support.hpp
+[20.622s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_domain_action_details__builder.hpp
+[20.628s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_domain_action_details__struct.hpp
+[20.634s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_domain_action_details__traits.hpp
+[20.640s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_domain_action_details__type_support.hpp
+[20.646s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_domain_actions__builder.hpp
+[20.652s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_domain_actions__struct.hpp
+[20.658s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_domain_actions__traits.hpp
+[20.664s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_domain_actions__type_support.hpp
+[20.670s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_domain_durative_action_details__builder.hpp
+[20.677s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_domain_durative_action_details__struct.hpp
+[20.683s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_domain_durative_action_details__traits.hpp
+[20.689s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_domain_durative_action_details__type_support.hpp
+[20.695s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_domain_types__builder.hpp
+[20.700s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_domain_types__struct.hpp
+[20.707s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_domain_types__traits.hpp
+[20.713s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_domain_types__type_support.hpp
+[20.719s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_node_details__builder.hpp
+[20.725s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_node_details__struct.hpp
+[20.731s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_node_details__traits.hpp
+[20.737s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_node_details__type_support.hpp
+[20.743s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_ordered_sub_goals__builder.hpp
+[20.749s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_ordered_sub_goals__struct.hpp
+[20.755s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_ordered_sub_goals__traits.hpp
+[20.761s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_ordered_sub_goals__type_support.hpp
+[20.767s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_plan__builder.hpp
+[20.773s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_plan__struct.hpp
+[20.779s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_plan__traits.hpp
+[20.785s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_plan__type_support.hpp
+[20.791s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_problem__builder.hpp
+[20.796s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_problem__struct.hpp
+[20.803s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_problem__traits.hpp
+[20.810s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_problem__type_support.hpp
+[20.816s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_problem_goal__builder.hpp
+[20.823s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_problem_goal__struct.hpp
+[20.829s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_problem_goal__traits.hpp
+[20.835s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_problem_goal__type_support.hpp
+[20.841s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_problem_instance_details__builder.hpp
+[20.848s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_problem_instance_details__struct.hpp
+[20.854s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_problem_instance_details__traits.hpp
+[20.861s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_problem_instance_details__type_support.hpp
+[20.867s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_problem_instances__builder.hpp
+[20.873s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_problem_instances__struct.hpp
+[20.880s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_problem_instances__traits.hpp
+[20.886s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_problem_instances__type_support.hpp
+[20.893s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_states__builder.hpp
+[20.899s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_states__struct.hpp
+[20.906s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_states__traits.hpp
+[20.912s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_states__type_support.hpp
+[20.918s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/is_problem_goal_satisfied__builder.hpp
+[20.924s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/is_problem_goal_satisfied__struct.hpp
+[20.930s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/is_problem_goal_satisfied__traits.hpp
+[20.937s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/is_problem_goal_satisfied__type_support.hpp
+[20.943s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/remove_problem_goal__builder.hpp
+[20.949s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/remove_problem_goal__struct.hpp
+[20.955s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/remove_problem_goal__traits.hpp
+[20.961s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/remove_problem_goal__type_support.hpp
+[20.968s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/exist_node.hpp
+[20.974s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/get_domain.hpp
+[20.980s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/get_domain_action_details.hpp
+[20.986s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/get_domain_actions.hpp
+[20.993s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/get_domain_durative_action_details.hpp
+[20.999s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/get_domain_types.hpp
+[21.005s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/get_node_details.hpp
+[21.012s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/get_ordered_sub_goals.hpp
+[21.018s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/get_plan.hpp
+[21.024s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/get_problem.hpp
+[21.031s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/get_problem_goal.hpp
+[21.037s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/get_problem_instance_details.hpp
+[21.043s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/get_problem_instances.hpp
+[21.050s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/get_states.hpp
+[21.057s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/is_problem_goal_satisfied.hpp
+[21.063s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/remove_problem_goal.hpp
+[21.069s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/action/detail/execute_plan__rosidl_typesupport_introspection_cpp.hpp
+[21.076s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/action__rosidl_typesupport_introspection_cpp.hpp
+[21.082s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/action_execution__rosidl_typesupport_introspection_cpp.hpp
+[21.089s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/action_execution_info__rosidl_typesupport_introspection_cpp.hpp
+[21.095s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/action_performer_status__rosidl_typesupport_introspection_cpp.hpp
+[21.101s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/durative_action__rosidl_typesupport_introspection_cpp.hpp
+[21.108s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/knowledge__rosidl_typesupport_introspection_cpp.hpp
+[21.113s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/node__rosidl_typesupport_introspection_cpp.hpp
+[21.120s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/param__rosidl_typesupport_introspection_cpp.hpp
+[21.132s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/plan__rosidl_typesupport_introspection_cpp.hpp
+[21.141s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/plan_item__rosidl_typesupport_introspection_cpp.hpp
+[21.148s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/msg/detail/tree__rosidl_typesupport_introspection_cpp.hpp
+[21.154s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/add_problem__rosidl_typesupport_introspection_cpp.hpp
+[21.161s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/add_problem_goal__rosidl_typesupport_introspection_cpp.hpp
+[21.167s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/affect_node__rosidl_typesupport_introspection_cpp.hpp
+[21.173s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/affect_param__rosidl_typesupport_introspection_cpp.hpp
+[21.180s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/clear_problem_knowledge__rosidl_typesupport_introspection_cpp.hpp
+[21.186s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/exist_node__rosidl_typesupport_introspection_cpp.hpp
+[21.192s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_domain__rosidl_typesupport_introspection_cpp.hpp
+[21.199s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_domain_action_details__rosidl_typesupport_introspection_cpp.hpp
+[21.205s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_domain_actions__rosidl_typesupport_introspection_cpp.hpp
+[21.211s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_domain_durative_action_details__rosidl_typesupport_introspection_cpp.hpp
+[21.217s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_domain_types__rosidl_typesupport_introspection_cpp.hpp
+[21.223s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_node_details__rosidl_typesupport_introspection_cpp.hpp
+[21.230s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_ordered_sub_goals__rosidl_typesupport_introspection_cpp.hpp
+[21.237s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_plan__rosidl_typesupport_introspection_cpp.hpp
+[21.244s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_problem__rosidl_typesupport_introspection_cpp.hpp
+[21.250s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_problem_goal__rosidl_typesupport_introspection_cpp.hpp
+[21.256s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_problem_instance_details__rosidl_typesupport_introspection_cpp.hpp
+[21.263s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_problem_instances__rosidl_typesupport_introspection_cpp.hpp
+[21.268s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/get_states__rosidl_typesupport_introspection_cpp.hpp
+[21.275s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/is_problem_goal_satisfied__rosidl_typesupport_introspection_cpp.hpp
+[21.281s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/include/plansys2_msgs/srv/detail/remove_problem_goal__rosidl_typesupport_introspection_cpp.hpp
+[21.288s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/environment/pythonpath.sh
+[21.295s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/environment/pythonpath.dsv
+[21.301s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/lib/python3.8/site-packages/plansys2_msgs/__init__.py
+[21.308s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/lib/python3.8/site-packages/plansys2_msgs/msg/__init__.py
+[21.314s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/lib/python3.8/site-packages/plansys2_msgs/msg/_action.py
+[21.321s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/lib/python3.8/site-packages/plansys2_msgs/msg/_action_execution.py
+[21.328s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/lib/python3.8/site-packages/plansys2_msgs/msg/_action_execution_info.py
+[21.335s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/lib/python3.8/site-packages/plansys2_msgs/msg/_action_performer_status.py
+[21.341s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/lib/python3.8/site-packages/plansys2_msgs/msg/_durative_action.py
+[21.349s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/lib/python3.8/site-packages/plansys2_msgs/msg/_knowledge.py
+[21.359s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/lib/python3.8/site-packages/plansys2_msgs/msg/_node.py
+[21.370s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/lib/python3.8/site-packages/plansys2_msgs/msg/_param.py
+[21.378s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/lib/python3.8/site-packages/plansys2_msgs/msg/_plan.py
+[21.385s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/lib/python3.8/site-packages/plansys2_msgs/msg/_plan_item.py
+[21.391s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/lib/python3.8/site-packages/plansys2_msgs/msg/_tree.py
+[21.398s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/lib/python3.8/site-packages/plansys2_msgs/srv/__init__.py
+[21.404s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/lib/python3.8/site-packages/plansys2_msgs/srv/_add_problem.py
+[21.410s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/lib/python3.8/site-packages/plansys2_msgs/srv/_add_problem_goal.py
+[21.416s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/lib/python3.8/site-packages/plansys2_msgs/srv/_affect_node.py
+[21.422s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/lib/python3.8/site-packages/plansys2_msgs/srv/_affect_param.py
+[21.429s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/lib/python3.8/site-packages/plansys2_msgs/srv/_clear_problem_knowledge.py
+[21.435s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/lib/python3.8/site-packages/plansys2_msgs/srv/_exist_node.py
+[21.441s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/lib/python3.8/site-packages/plansys2_msgs/srv/_get_domain.py
+[21.448s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/lib/python3.8/site-packages/plansys2_msgs/srv/_get_domain_action_details.py
+[21.454s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/lib/python3.8/site-packages/plansys2_msgs/srv/_get_domain_actions.py
+[21.460s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/lib/python3.8/site-packages/plansys2_msgs/srv/_get_domain_durative_action_details.py
+[21.466s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/lib/python3.8/site-packages/plansys2_msgs/srv/_get_domain_types.py
+[21.471s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/lib/python3.8/site-packages/plansys2_msgs/srv/_get_node_details.py
+[21.478s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/lib/python3.8/site-packages/plansys2_msgs/srv/_get_ordered_sub_goals.py
+[21.485s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/lib/python3.8/site-packages/plansys2_msgs/srv/_get_plan.py
+[21.490s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/lib/python3.8/site-packages/plansys2_msgs/srv/_get_problem.py
+[21.497s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/lib/python3.8/site-packages/plansys2_msgs/srv/_get_problem_goal.py
+[21.503s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/lib/python3.8/site-packages/plansys2_msgs/srv/_get_problem_instance_details.py
+[21.509s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/lib/python3.8/site-packages/plansys2_msgs/srv/_get_problem_instances.py
+[21.515s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/lib/python3.8/site-packages/plansys2_msgs/srv/_get_states.py
+[21.521s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/lib/python3.8/site-packages/plansys2_msgs/srv/_is_problem_goal_satisfied.py
+[21.526s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/lib/python3.8/site-packages/plansys2_msgs/srv/_remove_problem_goal.py
+[21.533s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/lib/python3.8/site-packages/plansys2_msgs/action/__init__.py
+[21.538s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/lib/python3.8/site-packages/plansys2_msgs/action/_execute_plan.py
+[21.545s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/lib/python3.8/site-packages/plansys2_msgs/plansys2_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[21.551s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/lib/python3.8/site-packages/plansys2_msgs/plansys2_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[21.560s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/lib/python3.8/site-packages/plansys2_msgs/plansys2_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[21.570s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/lib/libplansys2_msgs__python.so
+[21.580s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/msg/Action.idl
+[21.587s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/msg/ActionExecution.idl
+[21.593s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/msg/ActionExecutionInfo.idl
+[21.599s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/msg/ActionPerformerStatus.idl
+[21.605s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/msg/DurativeAction.idl
+[21.611s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/msg/Knowledge.idl
+[21.618s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/msg/Node.idl
+[21.624s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/msg/Param.idl
+[21.630s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/msg/Plan.idl
+[21.636s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/msg/PlanItem.idl
+[21.642s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/msg/Tree.idl
+[21.648s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/AddProblem.idl
+[21.654s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/AddProblemGoal.idl
+[21.660s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/AffectNode.idl
+[21.666s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/AffectParam.idl
+[21.673s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/ExistNode.idl
+[21.679s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/GetDomain.idl
+[21.685s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/GetDomainActions.idl
+[21.691s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/GetDomainActionDetails.idl
+[21.697s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/GetDomainDurativeActionDetails.idl
+[21.703s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/GetDomainTypes.idl
+[21.709s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/GetNodeDetails.idl
+[21.715s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/GetPlan.idl
+[21.721s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/GetOrderedSubGoals.idl
+[21.727s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/GetProblem.idl
+[21.733s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/GetProblemGoal.idl
+[21.739s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/GetProblemInstances.idl
+[21.745s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/GetProblemInstanceDetails.idl
+[21.751s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/GetStates.idl
+[21.758s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/IsProblemGoalSatisfied.idl
+[21.764s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/RemoveProblemGoal.idl
+[21.770s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/ClearProblemKnowledge.idl
+[21.776s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/action/ExecutePlan.idl
+[21.782s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/msg/Action.msg
+[21.788s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/msg/ActionExecution.msg
+[21.795s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/msg/ActionExecutionInfo.msg
+[21.801s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/msg/ActionPerformerStatus.msg
+[21.807s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/msg/DurativeAction.msg
+[21.813s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/msg/Knowledge.msg
+[21.819s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/msg/Node.msg
+[21.825s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/msg/Param.msg
+[21.831s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/msg/Plan.msg
+[21.837s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/msg/PlanItem.msg
+[21.843s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/msg/Tree.msg
+[21.850s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/AddProblem.srv
+[21.856s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/AddProblem_Request.msg
+[21.863s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/AddProblem_Response.msg
+[21.869s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/AddProblemGoal.srv
+[21.875s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/AddProblemGoal_Request.msg
+[21.881s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/AddProblemGoal_Response.msg
+[21.888s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/AffectNode.srv
+[21.893s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/AffectNode_Request.msg
+[21.899s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/AffectNode_Response.msg
+[21.905s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/AffectParam.srv
+[21.912s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/AffectParam_Request.msg
+[21.918s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/AffectParam_Response.msg
+[21.924s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/ExistNode.srv
+[21.930s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/ExistNode_Request.msg
+[21.936s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/ExistNode_Response.msg
+[21.942s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/GetDomain.srv
+[21.948s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/GetDomain_Request.msg
+[21.954s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/GetDomain_Response.msg
+[21.960s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/GetDomainActions.srv
+[21.966s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/GetDomainActions_Request.msg
+[21.972s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/GetDomainActions_Response.msg
+[21.978s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/GetDomainActionDetails.srv
+[21.984s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/GetDomainActionDetails_Request.msg
+[21.990s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/GetDomainActionDetails_Response.msg
+[21.997s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/GetDomainDurativeActionDetails.srv
+[22.003s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/GetDomainDurativeActionDetails_Request.msg
+[22.009s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/GetDomainDurativeActionDetails_Response.msg
+[22.015s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/GetDomainTypes.srv
+[22.021s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/GetDomainTypes_Request.msg
+[22.028s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/GetDomainTypes_Response.msg
+[22.034s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/GetNodeDetails.srv
+[22.040s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/GetNodeDetails_Request.msg
+[22.046s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/GetNodeDetails_Response.msg
+[22.053s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/GetPlan.srv
+[22.059s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/GetPlan_Request.msg
+[22.065s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/GetPlan_Response.msg
+[22.071s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/GetOrderedSubGoals.srv
+[22.077s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/GetOrderedSubGoals_Request.msg
+[22.083s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/GetOrderedSubGoals_Response.msg
+[22.089s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/GetProblem.srv
+[22.095s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/GetProblem_Request.msg
+[22.102s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/GetProblem_Response.msg
+[22.108s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/GetProblemGoal.srv
+[22.114s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/GetProblemGoal_Request.msg
+[22.120s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/GetProblemGoal_Response.msg
+[22.126s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/GetProblemInstances.srv
+[22.134s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/GetProblemInstances_Request.msg
+[22.141s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/GetProblemInstances_Response.msg
+[22.148s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/GetProblemInstanceDetails.srv
+[22.155s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/GetProblemInstanceDetails_Request.msg
+[22.161s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/GetProblemInstanceDetails_Response.msg
+[22.167s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/GetStates.srv
+[22.174s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/GetStates_Request.msg
+[22.180s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/GetStates_Response.msg
+[22.187s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/IsProblemGoalSatisfied.srv
+[22.193s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/IsProblemGoalSatisfied_Request.msg
+[22.200s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/IsProblemGoalSatisfied_Response.msg
+[22.206s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/RemoveProblemGoal.srv
+[22.212s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/RemoveProblemGoal_Request.msg
+[22.219s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/RemoveProblemGoal_Response.msg
+[22.225s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/ClearProblemKnowledge.srv
+[22.232s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/ClearProblemKnowledge_Request.msg
+[22.238s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/srv/ClearProblemKnowledge_Response.msg
+[22.244s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/action/ExecutePlan.action
+[22.250s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/ament_index/resource_index/package_run_dependencies/plansys2_msgs
+[22.256s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/ament_index/resource_index/parent_prefix_path/plansys2_msgs
+[22.262s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/environment/ament_prefix_path.sh
+[22.268s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/environment/ament_prefix_path.dsv
+[22.274s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/environment/path.sh
+[22.280s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/environment/path.dsv
+[22.286s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/local_setup.bash
+[22.293s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/local_setup.sh
+[22.300s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/local_setup.zsh
+[22.307s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/local_setup.dsv
+[22.313s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/package.dsv
+[22.320s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/ament_index/resource_index/packages/plansys2_msgs
+[22.326s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/cmake/rosidl_cmake-extras.cmake
+[22.332s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[22.338s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[22.347s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[22.355s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[22.363s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[22.372s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[22.379s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/cmake/plansys2_msgsConfig.cmake
+[22.391s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/cmake/plansys2_msgsConfig-version.cmake
+[22.398s] -- Symlinking: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/package.xml
+[22.404s] -- Installing: /root/ros2_ws/src/install/plansys2_msgs/lib/libplansys2_msgs__rosidl_generator_c.so
+[22.405s] -- Set runtime path of "/root/ros2_ws/src/install/plansys2_msgs/lib/libplansys2_msgs__rosidl_generator_c.so" to ""
+[22.405s] -- Installing: /root/ros2_ws/src/install/plansys2_msgs/lib/libplansys2_msgs__rosidl_typesupport_introspection_c.so
+[22.406s] -- Set runtime path of "/root/ros2_ws/src/install/plansys2_msgs/lib/libplansys2_msgs__rosidl_typesupport_introspection_c.so" to ""
+[22.406s] -- Installing: /root/ros2_ws/src/install/plansys2_msgs/lib/libplansys2_msgs__rosidl_typesupport_c.so
+[22.406s] -- Set runtime path of "/root/ros2_ws/src/install/plansys2_msgs/lib/libplansys2_msgs__rosidl_typesupport_c.so" to ""
+[22.406s] -- Installing: /root/ros2_ws/src/install/plansys2_msgs/lib/libplansys2_msgs__rosidl_typesupport_introspection_cpp.so
+[22.407s] -- Set runtime path of "/root/ros2_ws/src/install/plansys2_msgs/lib/libplansys2_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[22.407s] -- Installing: /root/ros2_ws/src/install/plansys2_msgs/lib/libplansys2_msgs__rosidl_typesupport_cpp.so
+[22.407s] -- Set runtime path of "/root/ros2_ws/src/install/plansys2_msgs/lib/libplansys2_msgs__rosidl_typesupport_cpp.so" to ""
+[22.432s] Compiling '/root/ros2_ws/src/install/plansys2_msgs/lib/python3.8/site-packages/plansys2_msgs/__init__.py'...
+[22.435s] -- Installing: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/cmake/plansys2_msgs__rosidl_generator_cExport.cmake
+[22.435s] -- Installing: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/cmake/plansys2_msgs__rosidl_generator_cExport-noconfig.cmake
+[22.435s] -- Installing: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/cmake/plansys2_msgs__rosidl_typesupport_introspection_cExport.cmake
+[22.436s] -- Installing: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/cmake/plansys2_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[22.436s] -- Installing: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/cmake/plansys2_msgs__rosidl_typesupport_cExport.cmake
+[22.436s] -- Installing: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/cmake/plansys2_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[22.436s] -- Installing: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/cmake/plansys2_msgs__rosidl_generator_cppExport.cmake
+[22.436s] -- Installing: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/cmake/plansys2_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[22.436s] -- Installing: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/cmake/plansys2_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[22.436s] -- Installing: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/cmake/plansys2_msgs__rosidl_typesupport_cppExport.cmake
+[22.436s] -- Installing: /root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/cmake/plansys2_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[22.438s] Invoked command in '/root/ros2_ws/src/build/plansys2_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/ros2_aruco:/opt/ros/foxy /usr/bin/cmake --install /root/ros2_ws/src/build/plansys2_msgs

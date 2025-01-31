@@ -1,0 +1,141 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "plansys2_bt_example",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "assemble_action_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-assemble_action_node-972542b1cfec18b287ce.json",
+					"name" : "assemble_action_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "assemble_controller_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-assemble_controller_node-5f9d2ef282013778937b.json",
+					"name" : "assemble_controller_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_sim_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_sim_node-4e5f4a8df7fa8ea3201f.json",
+					"name" : "nav2_sim_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "plansys2_approach_object_bt_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-plansys2_approach_object_bt_node-f62616ba07129eb6852e.json",
+					"name" : "plansys2_approach_object_bt_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "plansys2_bt_example_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-plansys2_bt_example_uninstall-cf58f656a1f6405a8f0f.json",
+					"name" : "plansys2_bt_example_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "plansys2_close_gripper_bt_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-plansys2_close_gripper_bt_node-e042ae405f1f36bb987e.json",
+					"name" : "plansys2_close_gripper_bt_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "plansys2_move_bt_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-plansys2_move_bt_node-0a771362daac3d5b855c.json",
+					"name" : "plansys2_move_bt_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "plansys2_open_gripper_bt_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-plansys2_open_gripper_bt_node-6937e91dae00e15c3d5f.json",
+					"name" : "plansys2_open_gripper_bt_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "plansys2_recharge_bt_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-plansys2_recharge_bt_node-b800d81fac01af11140e.json",
+					"name" : "plansys2_recharge_bt_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-b9e9cefaff625e3b1221.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/ros2_ws/src/build/plansys2_bt_example",
+		"source" : "/root/ros2_ws/src/ros2_planning_system_examples/plansys2_bt_example"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

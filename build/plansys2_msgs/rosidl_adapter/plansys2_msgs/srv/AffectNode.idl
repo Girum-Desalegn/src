@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from plansys2_msgs/srv/AffectNode.srv
+// generated code does not contain a copyright notice
+
+#include "plansys2_msgs/msg/Node.idl"
+
+module plansys2_msgs {
+  module srv {
+    struct AffectNode_Request {
+      plansys2_msgs::msg::Node node;
+    };
+    struct AffectNode_Response {
+      boolean success;
+
+      string error_info;
+    };
+  };
+};

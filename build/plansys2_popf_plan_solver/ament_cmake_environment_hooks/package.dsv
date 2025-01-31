@@ -1,0 +1,4 @@
+source;share/plansys2_popf_plan_solver/local_setup.bash
+source;share/plansys2_popf_plan_solver/local_setup.dsv
+source;share/plansys2_popf_plan_solver/local_setup.sh
+source;share/plansys2_popf_plan_solver/local_setup.zsh

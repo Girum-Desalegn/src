@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from plansys2_msgs/srv/IsProblemGoalSatisfied.srv
+// generated code does not contain a copyright notice
+
+#include "plansys2_msgs/msg/Tree.idl"
+
+module plansys2_msgs {
+  module srv {
+    struct IsProblemGoalSatisfied_Request {
+      plansys2_msgs::msg::Tree tree;
+    };
+    struct IsProblemGoalSatisfied_Response {
+      boolean success;
+
+      boolean satisfied;
+
+      string error_info;
+    };
+  };
+};

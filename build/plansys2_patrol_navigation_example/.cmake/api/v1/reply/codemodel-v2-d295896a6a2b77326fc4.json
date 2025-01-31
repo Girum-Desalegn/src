@@ -1,0 +1,96 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "plansys2_patrol_navigation_example",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "move_action_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-move_action_node-b6124274121b73afcd60.json",
+					"name" : "move_action_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "patrol_action_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-patrol_action_node-3890700ac1c7f479789e.json",
+					"name" : "patrol_action_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "patrolling_controller_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-patrolling_controller_node-0cad04500595b2b981a7.json",
+					"name" : "patrolling_controller_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "plansys2_patrol_navigation_example_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-plansys2_patrol_navigation_example_uninstall-6edc266f29540a4ae06c.json",
+					"name" : "plansys2_patrol_navigation_example_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-1fb0dc96b13babd0a557.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/ros2_ws/src/build/plansys2_patrol_navigation_example",
+		"source" : "/root/ros2_ws/src/ros2_planning_system_examples/plansys2_patrol_navigation_example"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

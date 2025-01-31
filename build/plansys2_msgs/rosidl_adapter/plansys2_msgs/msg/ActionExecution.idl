@@ -1,0 +1,33 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from plansys2_msgs/msg/ActionExecution.msg
+// generated code does not contain a copyright notice
+
+
+module plansys2_msgs {
+  module msg {
+    module ActionExecution_Constants {
+      const int16 REQUEST = 1;
+      const int16 RESPONSE = 2;
+      const int16 CONFIRM = 3;
+      const int16 REJECT = 4;
+      const int16 FEEDBACK = 5;
+      const int16 FINISH = 6;
+      const int16 CANCEL = 7;
+    };
+    struct ActionExecution {
+      int16 type;
+
+      string node_id;
+
+      string action;
+
+      sequence<string> arguments;
+
+      boolean success;
+
+      float completion;
+
+      string status;
+    };
+  };
+};

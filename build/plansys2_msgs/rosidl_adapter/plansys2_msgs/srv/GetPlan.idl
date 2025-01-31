@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from plansys2_msgs/srv/GetPlan.srv
+// generated code does not contain a copyright notice
+
+#include "plansys2_msgs/msg/Plan.idl"
+
+module plansys2_msgs {
+  module srv {
+    struct GetPlan_Request {
+      string domain;
+
+      string problem;
+    };
+    struct GetPlan_Response {
+      boolean success;
+
+      plansys2_msgs::msg::Plan plan;
+
+      string error_info;
+    };
+  };
+};

@@ -1,0 +1,4 @@
+
+plansys2_msgs/Action action
+bool success
+string error_info

@@ -1,0 +1,1 @@
+/root/ros2_ws/src/ros2_planning_system/plansys2_executor/test/pddl/domain_simple.pddl

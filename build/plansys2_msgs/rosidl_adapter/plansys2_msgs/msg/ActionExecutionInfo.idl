@@ -1,0 +1,39 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from plansys2_msgs/msg/ActionExecutionInfo.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Duration.idl"
+#include "builtin_interfaces/msg/Time.idl"
+
+module plansys2_msgs {
+  module msg {
+    module ActionExecutionInfo_Constants {
+      const int8 NOT_EXECUTED = 1;
+      const int8 EXECUTING = 2;
+      const int8 FAILED = 3;
+      const int8 SUCCEEDED = 4;
+      const int8 CANCELLED = 5;
+    };
+    struct ActionExecutionInfo {
+      int8 status;
+
+      builtin_interfaces::msg::Time start_stamp;
+
+      builtin_interfaces::msg::Time status_stamp;
+
+      string action_full_name;
+
+      string action;
+
+      sequence<string> arguments;
+
+      @verbatim (language="comment", text=
+        " predicted duration of the action from the planner")
+      builtin_interfaces::msg::Duration duration;
+
+      float completion;
+
+      string message_status;
+    };
+  };
+};

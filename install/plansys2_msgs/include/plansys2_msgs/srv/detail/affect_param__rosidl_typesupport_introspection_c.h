@@ -1,0 +1,1 @@
+/root/ros2_ws/src/build/plansys2_msgs/rosidl_typesupport_introspection_c/plansys2_msgs/srv/detail/affect_param__rosidl_typesupport_introspection_c.h

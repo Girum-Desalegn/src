@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from plansys2_msgs/srv/AddProblem.srv
+// generated code does not contain a copyright notice
+
+
+module plansys2_msgs {
+  module srv {
+    struct AddProblem_Request {
+      string problem;
+    };
+    struct AddProblem_Response {
+      boolean success;
+
+      string error_info;
+    };
+  };
+};

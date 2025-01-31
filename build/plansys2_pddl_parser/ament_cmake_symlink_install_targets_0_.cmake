@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/root/ros2_ws/src/build/plansys2_pddl_parser/libplansys2_pddl_parser.so" "/root/ros2_ws/src/build/plansys2_pddl_parser/parser" "TARGETS" "plansys2_pddl_parser" "parser" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "lib/plansys2_pddl_parser")

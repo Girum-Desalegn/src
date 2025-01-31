@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/ros2_ws/src/ros2_planning_system/plansys2_core/include/plansys2_core/Utils.hpp
+string
+-
+vector
+-
+
+/root/ros2_ws/src/ros2_planning_system/plansys2_core/src/plansys2_core/Utils.cpp
+string
+-
+sstream
+-
+vector
+-
+plansys2_core/Utils.hpp
+/root/ros2_ws/src/ros2_planning_system/plansys2_core/src/plansys2_core/plansys2_core/Utils.hpp
+

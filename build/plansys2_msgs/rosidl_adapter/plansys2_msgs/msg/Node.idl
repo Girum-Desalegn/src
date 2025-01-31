@@ -1,0 +1,56 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from plansys2_msgs/msg/Node.msg
+// generated code does not contain a copyright notice
+
+#include "plansys2_msgs/msg/Param.idl"
+
+module plansys2_msgs {
+  module msg {
+    module Node_Constants {
+      const uint8 UNKNOWN = 0;
+      const uint8 AND = 1;
+      const uint8 OR = 2;
+      const uint8 NOT = 3;
+      const uint8 ACTION = 4;
+      const uint8 PREDICATE = 5;
+      const uint8 FUNCTION = 6;
+      const uint8 EXPRESSION = 7;
+      const uint8 FUNCTION_MODIFIER = 8;
+      const uint8 NUMBER = 9;
+      const uint8 COMP_GE = 10;
+      const uint8 COMP_GT = 11;
+      const uint8 COMP_LE = 12;
+      const uint8 COMP_LT = 13;
+      const uint8 ARITH_MULT = 14;
+      const uint8 ARITH_DIV = 15;
+      const uint8 ARITH_ADD = 16;
+      const uint8 ARITH_SUB = 17;
+      const uint8 ASSIGN = 18;
+      const uint8 INCREASE = 19;
+      const uint8 DECREASE = 20;
+      const uint8 SCALE_UP = 21;
+      const uint8 SCALE_DOWN = 22;
+    };
+    @verbatim (language="comment", text=
+      " Unknown type")
+    struct Node {
+      uint8 node_type;
+
+      uint8 expression_type;
+
+      uint8 modifier_type;
+
+      uint32 node_id;
+
+      sequence<uint32> children;
+
+      string name;
+
+      sequence<plansys2_msgs::msg::Param> parameters;
+
+      double value;
+
+      boolean negate;
+    };
+  };
+};

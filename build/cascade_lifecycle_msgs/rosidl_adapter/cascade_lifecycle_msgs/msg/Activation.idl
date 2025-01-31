@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from cascade_lifecycle_msgs/msg/Activation.msg
+// generated code does not contain a copyright notice
+
+
+module cascade_lifecycle_msgs {
+  module msg {
+    module Activation_Constants {
+      const uint8 ADD = 0;
+      const uint8 REMOVE = 1;
+    };
+    struct Activation {
+      uint8 operation_type;
+
+      string activator;
+
+      string activation;
+    };
+  };
+};

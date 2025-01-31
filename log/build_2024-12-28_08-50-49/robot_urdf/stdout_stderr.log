@@ -1,0 +1,81 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/ros2_ws/src/build/robot_urdf
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/ros2_ws/src/build/robot_urdf
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /root/ros2_ws/src/install/robot_urdf/share/robot_urdf//launch/__pycache__/gazebo.launch.cpython-38.pyc
+-- Symlinking: /root/ros2_ws/src/install/robot_urdf/share/robot_urdf//launch/__pycache__/gazebo2.launch.cpython-38.pyc
+-- Symlinking: /root/ros2_ws/src/install/robot_urdf/share/robot_urdf//launch/__pycache__/gazebo_arm.launch.cpython-38.pyc
+-- Symlinking: /root/ros2_ws/src/install/robot_urdf/share/robot_urdf//launch/gazebo.launch.py
+-- Symlinking: /root/ros2_ws/src/install/robot_urdf/share/robot_urdf//launch/gazebo2.launch.py
+-- Symlinking: /root/ros2_ws/src/install/robot_urdf/share/robot_urdf//launch/gazebo_arm.launch.py
+-- Symlinking: /root/ros2_ws/src/install/robot_urdf/share/robot_urdf//launch/gazebo_aruco.launch.py
+-- Symlinking: /root/ros2_ws/src/install/robot_urdf/share/robot_urdf//launch/gazebo_assignment.launch.py
+-- Symlinking: /root/ros2_ws/src/install/robot_urdf/share/robot_urdf//urdf/m2wr_arm2.gazebo
+-- Symlinking: /root/ros2_ws/src/install/robot_urdf/share/robot_urdf//urdf/m2wr_arm2.xacro
+-- Symlinking: /root/ros2_ws/src/install/robot_urdf/share/robot_urdf//urdf/materials.xacro
+-- Symlinking: /root/ros2_ws/src/install/robot_urdf/share/robot_urdf//urdf/robot4.gazebo
+-- Symlinking: /root/ros2_ws/src/install/robot_urdf/share/robot_urdf//urdf/robot4.xacro
+-- Symlinking: /root/ros2_ws/src/install/robot_urdf/share/robot_urdf//urdf/robot5.gazebo
+-- Symlinking: /root/ros2_ws/src/install/robot_urdf/share/robot_urdf//urdf/robot5.xacro
+-- Symlinking: /root/ros2_ws/src/install/robot_urdf/share/robot_urdf//config/config.yaml
+-- Symlinking: /root/ros2_ws/src/install/robot_urdf/share/robot_urdf//config/config_camera.yaml
+-- Symlinking: /root/ros2_ws/src/install/robot_urdf/share/robot_urdf//config/config_old.yaml
+-- Symlinking: /root/ros2_ws/src/install/robot_urdf/share/robot_urdf//config/rviz.rviz
+-- Symlinking: /root/ros2_ws/src/install/robot_urdf/share/robot_urdf//worlds/aruco_assignment.world
+-- Symlinking: /root/ros2_ws/src/install/robot_urdf/share/robot_urdf//worlds/aruco_test.world
+-- Symlinking: /root/ros2_ws/src/install/robot_urdf/share/robot_urdf//worlds/gazebo_ass.world
+-- Symlinking: /root/ros2_ws/src/install/robot_urdf/share/robot_urdf//worlds/gazebo_assignment.world
+-- Symlinking: /root/ros2_ws/src/install/robot_urdf/share/robot_urdf//worlds/mytest.world
+-- Symlinking: /root/ros2_ws/src/install/robot_urdf/share/robot_urdf//worlds/new_world_2.world
+-- Symlinking: /root/ros2_ws/src/install/robot_urdf/share/ament_index/resource_index/package_run_dependencies/robot_urdf
+-- Symlinking: /root/ros2_ws/src/install/robot_urdf/share/ament_index/resource_index/parent_prefix_path/robot_urdf
+-- Symlinking: /root/ros2_ws/src/install/robot_urdf/share/robot_urdf/environment/ament_prefix_path.sh
+-- Symlinking: /root/ros2_ws/src/install/robot_urdf/share/robot_urdf/environment/ament_prefix_path.dsv
+-- Symlinking: /root/ros2_ws/src/install/robot_urdf/share/robot_urdf/environment/path.sh
+-- Symlinking: /root/ros2_ws/src/install/robot_urdf/share/robot_urdf/environment/path.dsv
+-- Symlinking: /root/ros2_ws/src/install/robot_urdf/share/robot_urdf/local_setup.bash
+-- Symlinking: /root/ros2_ws/src/install/robot_urdf/share/robot_urdf/local_setup.sh
+-- Symlinking: /root/ros2_ws/src/install/robot_urdf/share/robot_urdf/local_setup.zsh
+-- Symlinking: /root/ros2_ws/src/install/robot_urdf/share/robot_urdf/local_setup.dsv
+-- Symlinking: /root/ros2_ws/src/install/robot_urdf/share/robot_urdf/package.dsv
+-- Symlinking: /root/ros2_ws/src/install/robot_urdf/share/ament_index/resource_index/packages/robot_urdf
+-- Symlinking: /root/ros2_ws/src/install/robot_urdf/share/robot_urdf/cmake/robot_urdfConfig.cmake
+-- Symlinking: /root/ros2_ws/src/install/robot_urdf/share/robot_urdf/cmake/robot_urdfConfig-version.cmake
+-- Symlinking: /root/ros2_ws/src/install/robot_urdf/share/robot_urdf/package.xml

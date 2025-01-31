@@ -1,0 +1,126 @@
+[0.011s] Invoking command in '/root/ros2_ws/src/build/plansys2_pddl_parser': AMENT_PREFIX_PATH=/root/ros2_ws/src/install/plansys2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/src/install/plansys2_msgs:/root/ros2_ws/install/ros2_aruco_interfaces:/root/ros2_ws/install/robot_urdf:/root/ros2_ws/install/plansys2_planner:/root/ros2_ws/install/plansys2_problem_expert:/root/ros2_ws/install/plansys2_domain_expert:/root/ros2_ws/install/plansys2_popf_plan_solver:/root/ros2_ws/install/plansys2_core:/root/ros2_ws/install/plansys2_pddl_parser:/root/ros2_ws/install/plansys2_msgs:/root/ros2_ws/install/plansys2_lifecycle_manager:/root/ros2_ws/install/ros2_aruco:/opt/ros/foxy LD_LIBRARY_PATH=/root/ros2_ws/src/install/plansys2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/src/install/plansys2_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /root/ros2_ws/src/ros2_planning_system/plansys2_pddl_parser -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/install/plansys2_pddl_parser
+[0.055s] -- The C compiler identification is GNU 9.4.0
+[0.100s] -- The CXX compiler identification is GNU 9.4.0
+[0.105s] -- Check for working C compiler: /usr/bin/cc
+[0.153s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.153s] -- Detecting C compiler ABI info
+[0.203s] -- Detecting C compiler ABI info - done
+[0.213s] -- Detecting C compile features
+[0.213s] -- Detecting C compile features - done
+[0.215s] -- Check for working CXX compiler: /usr/bin/c++
+[0.270s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.271s] -- Detecting CXX compiler ABI info
+[0.325s] -- Detecting CXX compiler ABI info - done
+[0.334s] -- Detecting CXX compile features
+[0.336s] -- Detecting CXX compile features - done
+[0.337s] -- Looking for pthread.h
+[0.386s] -- Looking for pthread.h - found
+[0.386s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.439s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.439s] -- Looking for pthread_create in pthreads
+[0.483s] -- Looking for pthread_create in pthreads - not found
+[0.483s] -- Looking for pthread_create in pthread
+[0.534s] -- Looking for pthread_create in pthread - found
+[0.535s] -- Found Threads: TRUE  
+[0.538s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.565s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.566s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.697s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.734s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.785s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.791s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.864s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.895s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.975s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.023s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.024s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.139s] -- Found plansys2_msgs: 1.0.10 (/root/ros2_ws/src/install/plansys2_msgs/share/plansys2_msgs/cmake)
+[1.283s] -- Configuring done
+[1.294s] -- Generating done
+[1.297s] -- Build files have been written to: /root/ros2_ws/src/build/plansys2_pddl_parser
+[1.303s] Invoked command in '/root/ros2_ws/src/build/plansys2_pddl_parser' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/src/install/plansys2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/src/install/plansys2_msgs:/root/ros2_ws/install/ros2_aruco_interfaces:/root/ros2_ws/install/robot_urdf:/root/ros2_ws/install/plansys2_planner:/root/ros2_ws/install/plansys2_problem_expert:/root/ros2_ws/install/plansys2_domain_expert:/root/ros2_ws/install/plansys2_popf_plan_solver:/root/ros2_ws/install/plansys2_core:/root/ros2_ws/install/plansys2_pddl_parser:/root/ros2_ws/install/plansys2_msgs:/root/ros2_ws/install/plansys2_lifecycle_manager:/root/ros2_ws/install/ros2_aruco:/opt/ros/foxy LD_LIBRARY_PATH=/root/ros2_ws/src/install/plansys2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/src/install/plansys2_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /root/ros2_ws/src/ros2_planning_system/plansys2_pddl_parser -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/install/plansys2_pddl_parser
+[1.306s] Invoking command in '/root/ros2_ws/src/build/plansys2_pddl_parser': AMENT_PREFIX_PATH=/root/ros2_ws/src/install/plansys2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/src/install/plansys2_msgs:/root/ros2_ws/install/ros2_aruco_interfaces:/root/ros2_ws/install/robot_urdf:/root/ros2_ws/install/plansys2_planner:/root/ros2_ws/install/plansys2_problem_expert:/root/ros2_ws/install/plansys2_domain_expert:/root/ros2_ws/install/plansys2_popf_plan_solver:/root/ros2_ws/install/plansys2_core:/root/ros2_ws/install/plansys2_pddl_parser:/root/ros2_ws/install/plansys2_msgs:/root/ros2_ws/install/plansys2_lifecycle_manager:/root/ros2_ws/install/ros2_aruco:/opt/ros/foxy LD_LIBRARY_PATH=/root/ros2_ws/src/install/plansys2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/src/install/plansys2_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ros2_ws/src/build/plansys2_pddl_parser -- -j16 -l16
+[1.334s] [35m[1mScanning dependencies of target plansys2_pddl_parser[0m
+[1.362s] [  4%] [32mBuilding CXX object CMakeFiles/plansys2_pddl_parser.dir/src/plansys2_pddl_parser/GroundFunc.cpp.o[0m
+[1.366s] [  8%] [32mBuilding CXX object CMakeFiles/plansys2_pddl_parser.dir/src/plansys2_pddl_parser/When.cpp.o[0m
+[1.366s] [ 13%] [32mBuilding CXX object CMakeFiles/plansys2_pddl_parser.dir/src/plansys2_pddl_parser/Function.cpp.o[0m
+[1.367s] [ 17%] [32mBuilding CXX object CMakeFiles/plansys2_pddl_parser.dir/src/plansys2_pddl_parser/Equals.cpp.o[0m
+[1.381s] [ 26%] [32mBuilding CXX object CMakeFiles/plansys2_pddl_parser.dir/src/plansys2_pddl_parser/ParamCond.cpp.o[0m
+[1.381s] [ 26%] [32mBuilding CXX object CMakeFiles/plansys2_pddl_parser.dir/src/plansys2_pddl_parser/Action.cpp.o[0m
+[1.382s] [ 30%] [32mBuilding CXX object CMakeFiles/plansys2_pddl_parser.dir/src/plansys2_pddl_parser/Expression.cpp.o[0m
+[1.382s] [ 34%] [32mBuilding CXX object CMakeFiles/plansys2_pddl_parser.dir/src/plansys2_pddl_parser/Exists.cpp.o[0m
+[1.383s] [ 39%] [32mBuilding CXX object CMakeFiles/plansys2_pddl_parser.dir/src/plansys2_pddl_parser/Not.cpp.o[0m
+[1.384s] [ 43%] [32mBuilding CXX object CMakeFiles/plansys2_pddl_parser.dir/src/plansys2_pddl_parser/TemporalAction.cpp.o[0m
+[1.384s] [ 47%] [32mBuilding CXX object CMakeFiles/plansys2_pddl_parser.dir/src/plansys2_pddl_parser/Or.cpp.o[0m
+[1.385s] [ 52%] [32mBuilding CXX object CMakeFiles/plansys2_pddl_parser.dir/src/plansys2_pddl_parser/And.cpp.o[0m
+[1.386s] [ 56%] [32mBuilding CXX object CMakeFiles/plansys2_pddl_parser.dir/src/plansys2_pddl_parser/Derived.cpp.o[0m
+[1.387s] [ 60%] [32mBuilding CXX object CMakeFiles/plansys2_pddl_parser.dir/src/plansys2_pddl_parser/Oneof.cpp.o[0m
+[1.391s] [ 65%] [32mBuilding CXX object CMakeFiles/plansys2_pddl_parser.dir/src/plansys2_pddl_parser/Lifted.cpp.o[0m
+[1.392s] [ 69%] [32mBuilding CXX object CMakeFiles/plansys2_pddl_parser.dir/src/plansys2_pddl_parser/Forall.cpp.o[0m
+[2.557s] [ 73%] [32mBuilding CXX object CMakeFiles/plansys2_pddl_parser.dir/src/plansys2_pddl_parser/FunctionModifier.cpp.o[0m
+[2.624s] [ 78%] [32mBuilding CXX object CMakeFiles/plansys2_pddl_parser.dir/src/plansys2_pddl_parser/Ground.cpp.o[0m
+[2.632s] [ 82%] [32mBuilding CXX object CMakeFiles/plansys2_pddl_parser.dir/src/plansys2_pddl_parser/Utils.cpp.o[0m
+[2.667s] [ 86%] [32mBuilding CXX object CMakeFiles/plansys2_pddl_parser.dir/src/plansys2_pddl_parser/TypeGround.cpp.o[0m
+[4.767s] [ 91%] [32m[1mLinking CXX shared library libplansys2_pddl_parser.so[0m
+[4.942s] [ 91%] Built target plansys2_pddl_parser
+[4.950s] [35m[1mScanning dependencies of target parser[0m
+[4.961s] [ 95%] [32mBuilding CXX object CMakeFiles/parser.dir/src/parser.cpp.o[0m
+[6.050s] [100%] [32m[1mLinking CXX executable parser[0m
+[6.142s] [100%] Built target parser
+[6.151s] Invoked command in '/root/ros2_ws/src/build/plansys2_pddl_parser' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/src/install/plansys2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/src/install/plansys2_msgs:/root/ros2_ws/install/ros2_aruco_interfaces:/root/ros2_ws/install/robot_urdf:/root/ros2_ws/install/plansys2_planner:/root/ros2_ws/install/plansys2_problem_expert:/root/ros2_ws/install/plansys2_domain_expert:/root/ros2_ws/install/plansys2_popf_plan_solver:/root/ros2_ws/install/plansys2_core:/root/ros2_ws/install/plansys2_pddl_parser:/root/ros2_ws/install/plansys2_msgs:/root/ros2_ws/install/plansys2_lifecycle_manager:/root/ros2_ws/install/ros2_aruco:/opt/ros/foxy LD_LIBRARY_PATH=/root/ros2_ws/src/install/plansys2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/src/install/plansys2_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ros2_ws/src/build/plansys2_pddl_parser -- -j16 -l16
+[6.155s] Invoking command in '/root/ros2_ws/src/build/plansys2_pddl_parser': AMENT_PREFIX_PATH=/root/ros2_ws/src/install/plansys2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/src/install/plansys2_msgs:/root/ros2_ws/install/ros2_aruco_interfaces:/root/ros2_ws/install/robot_urdf:/root/ros2_ws/install/plansys2_planner:/root/ros2_ws/install/plansys2_problem_expert:/root/ros2_ws/install/plansys2_domain_expert:/root/ros2_ws/install/plansys2_popf_plan_solver:/root/ros2_ws/install/plansys2_core:/root/ros2_ws/install/plansys2_pddl_parser:/root/ros2_ws/install/plansys2_msgs:/root/ros2_ws/install/plansys2_lifecycle_manager:/root/ros2_ws/install/ros2_aruco:/opt/ros/foxy LD_LIBRARY_PATH=/root/ros2_ws/src/install/plansys2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/src/install/plansys2_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ros2_ws/src/build/plansys2_pddl_parser
+[6.160s] -- Install configuration: ""
+[6.160s] -- Execute custom install script
+[6.163s] -- Symlinking: /root/ros2_ws/src/install/plansys2_pddl_parser/include//plansys2_pddl_parser/Action.h
+[6.170s] -- Symlinking: /root/ros2_ws/src/install/plansys2_pddl_parser/include//plansys2_pddl_parser/And.h
+[6.176s] -- Symlinking: /root/ros2_ws/src/install/plansys2_pddl_parser/include//plansys2_pddl_parser/Basic.h
+[6.183s] -- Symlinking: /root/ros2_ws/src/install/plansys2_pddl_parser/include//plansys2_pddl_parser/CondIter.h
+[6.189s] -- Symlinking: /root/ros2_ws/src/install/plansys2_pddl_parser/include//plansys2_pddl_parser/Condition.h
+[6.195s] -- Symlinking: /root/ros2_ws/src/install/plansys2_pddl_parser/include//plansys2_pddl_parser/Derived.h
+[6.201s] -- Symlinking: /root/ros2_ws/src/install/plansys2_pddl_parser/include//plansys2_pddl_parser/Domain.h
+[6.208s] -- Symlinking: /root/ros2_ws/src/install/plansys2_pddl_parser/include//plansys2_pddl_parser/EitherType.h
+[6.215s] -- Symlinking: /root/ros2_ws/src/install/plansys2_pddl_parser/include//plansys2_pddl_parser/Equals.h
+[6.223s] -- Symlinking: /root/ros2_ws/src/install/plansys2_pddl_parser/include//plansys2_pddl_parser/Exists.h
+[6.230s] -- Symlinking: /root/ros2_ws/src/install/plansys2_pddl_parser/include//plansys2_pddl_parser/Expression.h
+[6.236s] -- Symlinking: /root/ros2_ws/src/install/plansys2_pddl_parser/include//plansys2_pddl_parser/Forall.h
+[6.242s] -- Symlinking: /root/ros2_ws/src/install/plansys2_pddl_parser/include//plansys2_pddl_parser/Function.h
+[6.249s] -- Symlinking: /root/ros2_ws/src/install/plansys2_pddl_parser/include//plansys2_pddl_parser/FunctionModifier.h
+[6.256s] -- Symlinking: /root/ros2_ws/src/install/plansys2_pddl_parser/include//plansys2_pddl_parser/Ground.h
+[6.265s] -- Symlinking: /root/ros2_ws/src/install/plansys2_pddl_parser/include//plansys2_pddl_parser/GroundFunc.h
+[6.272s] -- Symlinking: /root/ros2_ws/src/install/plansys2_pddl_parser/include//plansys2_pddl_parser/Instance.h
+[6.278s] -- Symlinking: /root/ros2_ws/src/install/plansys2_pddl_parser/include//plansys2_pddl_parser/Lifted.h
+[6.285s] -- Symlinking: /root/ros2_ws/src/install/plansys2_pddl_parser/include//plansys2_pddl_parser/Not.h
+[6.291s] -- Symlinking: /root/ros2_ws/src/install/plansys2_pddl_parser/include//plansys2_pddl_parser/Oneof.h
+[6.301s] -- Symlinking: /root/ros2_ws/src/install/plansys2_pddl_parser/include//plansys2_pddl_parser/Or.h
+[6.319s] -- Symlinking: /root/ros2_ws/src/install/plansys2_pddl_parser/include//plansys2_pddl_parser/ParamCond.h
+[6.338s] -- Symlinking: /root/ros2_ws/src/install/plansys2_pddl_parser/include//plansys2_pddl_parser/Stringreader.h
+[6.345s] -- Symlinking: /root/ros2_ws/src/install/plansys2_pddl_parser/include//plansys2_pddl_parser/Task.h
+[6.355s] -- Symlinking: /root/ros2_ws/src/install/plansys2_pddl_parser/include//plansys2_pddl_parser/TemporalAction.h
+[6.367s] -- Symlinking: /root/ros2_ws/src/install/plansys2_pddl_parser/include//plansys2_pddl_parser/TokenStruct.h
+[6.377s] -- Symlinking: /root/ros2_ws/src/install/plansys2_pddl_parser/include//plansys2_pddl_parser/Type.h
+[6.389s] -- Symlinking: /root/ros2_ws/src/install/plansys2_pddl_parser/include//plansys2_pddl_parser/TypeGround.h
+[6.398s] -- Symlinking: /root/ros2_ws/src/install/plansys2_pddl_parser/include//plansys2_pddl_parser/Utils.h
+[6.405s] -- Symlinking: /root/ros2_ws/src/install/plansys2_pddl_parser/include//plansys2_pddl_parser/When.h
+[6.413s] -- Symlinking: /root/ros2_ws/src/install/plansys2_pddl_parser/lib/libplansys2_pddl_parser.so
+[6.419s] -- Symlinking: /root/ros2_ws/src/install/plansys2_pddl_parser/lib/plansys2_pddl_parser/parser
+[6.427s] -- Symlinking: /root/ros2_ws/src/install/plansys2_pddl_parser/share/plansys2_pddl_parser/environment/library_path.sh
+[6.433s] -- Symlinking: /root/ros2_ws/src/install/plansys2_pddl_parser/share/plansys2_pddl_parser/environment/library_path.dsv
+[6.441s] -- Symlinking: /root/ros2_ws/src/install/plansys2_pddl_parser/share/ament_index/resource_index/package_run_dependencies/plansys2_pddl_parser
+[6.451s] -- Symlinking: /root/ros2_ws/src/install/plansys2_pddl_parser/share/ament_index/resource_index/parent_prefix_path/plansys2_pddl_parser
+[6.464s] -- Symlinking: /root/ros2_ws/src/install/plansys2_pddl_parser/share/plansys2_pddl_parser/environment/ament_prefix_path.sh
+[6.474s] -- Symlinking: /root/ros2_ws/src/install/plansys2_pddl_parser/share/plansys2_pddl_parser/environment/ament_prefix_path.dsv
+[6.483s] -- Symlinking: /root/ros2_ws/src/install/plansys2_pddl_parser/share/plansys2_pddl_parser/environment/path.sh
+[6.493s] -- Symlinking: /root/ros2_ws/src/install/plansys2_pddl_parser/share/plansys2_pddl_parser/environment/path.dsv
+[6.503s] -- Symlinking: /root/ros2_ws/src/install/plansys2_pddl_parser/share/plansys2_pddl_parser/local_setup.bash
+[6.509s] -- Symlinking: /root/ros2_ws/src/install/plansys2_pddl_parser/share/plansys2_pddl_parser/local_setup.sh
+[6.516s] -- Symlinking: /root/ros2_ws/src/install/plansys2_pddl_parser/share/plansys2_pddl_parser/local_setup.zsh
+[6.526s] -- Symlinking: /root/ros2_ws/src/install/plansys2_pddl_parser/share/plansys2_pddl_parser/local_setup.dsv
+[6.534s] -- Symlinking: /root/ros2_ws/src/install/plansys2_pddl_parser/share/plansys2_pddl_parser/package.dsv
+[6.541s] -- Symlinking: /root/ros2_ws/src/install/plansys2_pddl_parser/share/ament_index/resource_index/packages/plansys2_pddl_parser
+[6.547s] -- Symlinking: /root/ros2_ws/src/install/plansys2_pddl_parser/share/plansys2_pddl_parser/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.554s] -- Symlinking: /root/ros2_ws/src/install/plansys2_pddl_parser/share/plansys2_pddl_parser/cmake/ament_cmake_export_libraries-extras.cmake
+[6.560s] -- Symlinking: /root/ros2_ws/src/install/plansys2_pddl_parser/share/plansys2_pddl_parser/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.567s] -- Symlinking: /root/ros2_ws/src/install/plansys2_pddl_parser/share/plansys2_pddl_parser/cmake/plansys2_pddl_parserConfig.cmake
+[6.573s] -- Symlinking: /root/ros2_ws/src/install/plansys2_pddl_parser/share/plansys2_pddl_parser/cmake/plansys2_pddl_parserConfig-version.cmake
+[6.580s] -- Symlinking: /root/ros2_ws/src/install/plansys2_pddl_parser/share/plansys2_pddl_parser/package.xml
+[6.588s] Invoked command in '/root/ros2_ws/src/build/plansys2_pddl_parser' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/src/install/plansys2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/src/install/plansys2_msgs:/root/ros2_ws/install/ros2_aruco_interfaces:/root/ros2_ws/install/robot_urdf:/root/ros2_ws/install/plansys2_planner:/root/ros2_ws/install/plansys2_problem_expert:/root/ros2_ws/install/plansys2_domain_expert:/root/ros2_ws/install/plansys2_popf_plan_solver:/root/ros2_ws/install/plansys2_core:/root/ros2_ws/install/plansys2_pddl_parser:/root/ros2_ws/install/plansys2_msgs:/root/ros2_ws/install/plansys2_lifecycle_manager:/root/ros2_ws/install/ros2_aruco:/opt/ros/foxy LD_LIBRARY_PATH=/root/ros2_ws/src/install/plansys2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/src/install/plansys2_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ros2_ws/src/build/plansys2_pddl_parser

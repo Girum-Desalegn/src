@@ -1,0 +1,213 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				},
+				{
+					"build" : "plansys2_msgs__py",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/root/ros2_ws/src/build/plansys2_msgs/plansys2_msgs__py",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "plansys2_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "plansys2_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-plansys2_msgs-4eac7312e2f42fb2aa0c.json",
+					"name" : "plansys2_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "plansys2_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-plansys2_msgs__cpp-cd8fb88fe82178f2d895.json",
+					"name" : "plansys2_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "plansys2_msgs__py::@a12a684c06b39af0fd12",
+					"jsonFile" : "target-plansys2_msgs__py-eef211eb5dd1a0c55305.json",
+					"name" : "plansys2_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "plansys2_msgs__python::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-plansys2_msgs__python-1188f354d982a7b4ba05.json",
+					"name" : "plansys2_msgs__python",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "plansys2_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-plansys2_msgs__rosidl_generator_c-f8f7ec03ca682cfa0df3.json",
+					"name" : "plansys2_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "plansys2_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-plansys2_msgs__rosidl_typesupport_c-7140d4196a5e6ae6ec5a.json",
+					"name" : "plansys2_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "plansys2_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-plansys2_msgs__rosidl_typesupport_c__pyext-fd8aeb6ba5fadf909652.json",
+					"name" : "plansys2_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "plansys2_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-plansys2_msgs__rosidl_typesupport_cpp-38c8c87c0d905ccf07be.json",
+					"name" : "plansys2_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "plansys2_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-plansys2_msgs__rosidl_typesupport_fastrtps_c-2964499902e0aa7eb522.json",
+					"name" : "plansys2_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "plansys2_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-plansys2_msgs__rosidl_typesupport_fastrtps_c__pyext-e369c6c23f5b3f554c90.json",
+					"name" : "plansys2_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "plansys2_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-plansys2_msgs__rosidl_typesupport_fastrtps_cpp-a6698c5e8ae8c182bd40.json",
+					"name" : "plansys2_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "plansys2_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-plansys2_msgs__rosidl_typesupport_introspection_c-e26f257dea99f0c04da4.json",
+					"name" : "plansys2_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "plansys2_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-plansys2_msgs__rosidl_typesupport_introspection_c__pyext-77da82d49efaf08327a9.json",
+					"name" : "plansys2_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "plansys2_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-plansys2_msgs__rosidl_typesupport_introspection_cpp-2efdc6e1aadcf10049ef.json",
+					"name" : "plansys2_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "plansys2_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-plansys2_msgs_uninstall-05f5b6abe16b004a0917.json",
+					"name" : "plansys2_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-8c336d51dc447b88e508.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/ros2_ws/src/build/plansys2_msgs",
+		"source" : "/root/ros2_ws/src/ros2_planning_system/plansys2_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

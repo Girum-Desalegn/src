@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from plansys2_msgs/srv/ClearProblemKnowledge.srv
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Empty.idl"
+
+module plansys2_msgs {
+  module srv {
+    struct ClearProblemKnowledge_Request {
+      std_msgs::msg::Empty request;
+    };
+    struct ClearProblemKnowledge_Response {
+      boolean success;
+
+      string error_info;
+    };
+  };
+};

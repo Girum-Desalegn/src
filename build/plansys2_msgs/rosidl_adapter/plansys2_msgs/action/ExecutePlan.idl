@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from plansys2_msgs/action/ExecutePlan.action
+// generated code does not contain a copyright notice
+
+#include "plansys2_msgs/msg/ActionExecutionInfo.idl"
+#include "plansys2_msgs/msg/Plan.idl"
+
+module plansys2_msgs {
+  module action {
+    struct ExecutePlan_Goal {
+      plansys2_msgs::msg::Plan plan;
+    };
+    struct ExecutePlan_Result {
+      boolean success;
+
+      sequence<plansys2_msgs::msg::ActionExecutionInfo> action_execution_status;
+    };
+    struct ExecutePlan_Feedback {
+      sequence<plansys2_msgs::msg::ActionExecutionInfo> action_execution_status;
+    };
+  };
+};

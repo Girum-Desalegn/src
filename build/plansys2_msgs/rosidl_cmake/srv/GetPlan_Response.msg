@@ -1,0 +1,4 @@
+
+bool success
+plansys2_msgs/Plan plan
+string error_info

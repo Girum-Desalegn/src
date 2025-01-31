@@ -1,0 +1,133 @@
+[0.018s] Invoking command in '/root/ros2_ws/src/build/plansys2_problem_expert': AMENT_PREFIX_PATH=/root/ros2_ws/src/install/plansys2_domain_expert:/root/ros2_ws/src/install/plansys2_popf_plan_solver:/root/ros2_ws/src/install/plansys2_core:/root/ros2_ws/src/install/plansys2_pddl_parser:/root/ros2_ws/src/install/plansys2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/src/install/plansys2_domain_expert:/root/ros2_ws/src/install/plansys2_popf_plan_solver:/root/ros2_ws/src/install/plansys2_core:/root/ros2_ws/src/install/plansys2_pddl_parser:/root/ros2_ws/src/install/plansys2_msgs:/root/ros2_ws/install/ros2_aruco_interfaces:/root/ros2_ws/install/robot_urdf:/root/ros2_ws/install/plansys2_planner:/root/ros2_ws/install/plansys2_problem_expert:/root/ros2_ws/install/plansys2_domain_expert:/root/ros2_ws/install/plansys2_popf_plan_solver:/root/ros2_ws/install/plansys2_core:/root/ros2_ws/install/plansys2_pddl_parser:/root/ros2_ws/install/plansys2_msgs:/root/ros2_ws/install/plansys2_lifecycle_manager:/root/ros2_ws/install/ros2_aruco:/opt/ros/foxy LD_LIBRARY_PATH=/root/ros2_ws/src/install/plansys2_domain_expert/lib:/root/ros2_ws/src/install/plansys2_popf_plan_solver/lib:/root/ros2_ws/src/install/plansys2_core/lib:/root/ros2_ws/src/install/plansys2_pddl_parser/lib:/root/ros2_ws/src/install/plansys2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/src/install/plansys2_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /root/ros2_ws/src/ros2_planning_system/plansys2_problem_expert -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/install/plansys2_problem_expert
+[0.070s] -- The C compiler identification is GNU 9.4.0
+[0.117s] -- The CXX compiler identification is GNU 9.4.0
+[0.121s] -- Check for working C compiler: /usr/bin/cc
+[0.177s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.178s] -- Detecting C compiler ABI info
+[0.231s] -- Detecting C compiler ABI info - done
+[0.240s] -- Detecting C compile features
+[0.240s] -- Detecting C compile features - done
+[0.243s] -- Check for working CXX compiler: /usr/bin/c++
+[0.300s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.301s] -- Detecting CXX compiler ABI info
+[0.358s] -- Detecting CXX compiler ABI info - done
+[0.368s] -- Detecting CXX compile features
+[0.368s] -- Detecting CXX compile features - done
+[0.369s] -- Looking for pthread.h
+[0.419s] -- Looking for pthread.h - found
+[0.419s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.473s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.473s] -- Looking for pthread_create in pthreads
+[0.518s] -- Looking for pthread_create in pthreads - not found
+[0.518s] -- Looking for pthread_create in pthread
+[0.567s] -- Looking for pthread_create in pthread - found
+[0.568s] -- Found Threads: TRUE  
+[0.571s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.599s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.599s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.728s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.766s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.816s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.824s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.902s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.937s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.019s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.067s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.069s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.182s] -- Found rclcpp_action: 2.4.3 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[1.239s] -- Found rclcpp_lifecycle: 2.4.3 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)
+[1.265s] -- Found ament_index_cpp: 1.1.0 (/opt/ros/foxy/share/ament_index_cpp/cmake)
+[1.266s] -- Found plansys2_pddl_parser: 1.0.10 (/root/ros2_ws/src/install/plansys2_pddl_parser/share/plansys2_pddl_parser/cmake)
+[1.348s] -- Found plansys2_core: 1.0.10 (/root/ros2_ws/src/install/plansys2_core/share/plansys2_core/cmake)
+[1.412s] -- Found plansys2_domain_expert: 1.0.10 (/root/ros2_ws/src/install/plansys2_domain_expert/share/plansys2_domain_expert/cmake)
+[2.056s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.145s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.147s] -- Check if compiler accepts -pthread
+[2.201s] -- Check if compiler accepts -pthread - yes
+[2.211s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.215s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.215s] -- Configured cppcheck include dirs: /root/ros2_ws/src/ros2_planning_system/plansys2_problem_expert/include
+[2.215s] -- Configured cppcheck exclude dirs and/or files: 
+[2.216s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.217s] -- Configured cpplint exclude dirs and/or files: 
+[2.217s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.218s] -- Added test 'lint_cmake' to check CMake code style
+[2.218s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.219s] -- Added test 'uncrustify' to check C / C++ code style
+[2.219s] -- Configured uncrustify additional arguments: 
+[2.220s] -- Added test 'xmllint' to check XML markup files
+[2.225s] -- Configuring done
+[2.276s] -- Generating done
+[2.292s] -- Build files have been written to: /root/ros2_ws/src/build/plansys2_problem_expert
+[2.300s] Invoked command in '/root/ros2_ws/src/build/plansys2_problem_expert' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/src/install/plansys2_domain_expert:/root/ros2_ws/src/install/plansys2_popf_plan_solver:/root/ros2_ws/src/install/plansys2_core:/root/ros2_ws/src/install/plansys2_pddl_parser:/root/ros2_ws/src/install/plansys2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/src/install/plansys2_domain_expert:/root/ros2_ws/src/install/plansys2_popf_plan_solver:/root/ros2_ws/src/install/plansys2_core:/root/ros2_ws/src/install/plansys2_pddl_parser:/root/ros2_ws/src/install/plansys2_msgs:/root/ros2_ws/install/ros2_aruco_interfaces:/root/ros2_ws/install/robot_urdf:/root/ros2_ws/install/plansys2_planner:/root/ros2_ws/install/plansys2_problem_expert:/root/ros2_ws/install/plansys2_domain_expert:/root/ros2_ws/install/plansys2_popf_plan_solver:/root/ros2_ws/install/plansys2_core:/root/ros2_ws/install/plansys2_pddl_parser:/root/ros2_ws/install/plansys2_msgs:/root/ros2_ws/install/plansys2_lifecycle_manager:/root/ros2_ws/install/ros2_aruco:/opt/ros/foxy LD_LIBRARY_PATH=/root/ros2_ws/src/install/plansys2_domain_expert/lib:/root/ros2_ws/src/install/plansys2_popf_plan_solver/lib:/root/ros2_ws/src/install/plansys2_core/lib:/root/ros2_ws/src/install/plansys2_pddl_parser/lib:/root/ros2_ws/src/install/plansys2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/src/install/plansys2_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /root/ros2_ws/src/ros2_planning_system/plansys2_problem_expert -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/install/plansys2_problem_expert
+[2.303s] Invoking command in '/root/ros2_ws/src/build/plansys2_problem_expert': AMENT_PREFIX_PATH=/root/ros2_ws/src/install/plansys2_domain_expert:/root/ros2_ws/src/install/plansys2_popf_plan_solver:/root/ros2_ws/src/install/plansys2_core:/root/ros2_ws/src/install/plansys2_pddl_parser:/root/ros2_ws/src/install/plansys2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/src/install/plansys2_domain_expert:/root/ros2_ws/src/install/plansys2_popf_plan_solver:/root/ros2_ws/src/install/plansys2_core:/root/ros2_ws/src/install/plansys2_pddl_parser:/root/ros2_ws/src/install/plansys2_msgs:/root/ros2_ws/install/ros2_aruco_interfaces:/root/ros2_ws/install/robot_urdf:/root/ros2_ws/install/plansys2_planner:/root/ros2_ws/install/plansys2_problem_expert:/root/ros2_ws/install/plansys2_domain_expert:/root/ros2_ws/install/plansys2_popf_plan_solver:/root/ros2_ws/install/plansys2_core:/root/ros2_ws/install/plansys2_pddl_parser:/root/ros2_ws/install/plansys2_msgs:/root/ros2_ws/install/plansys2_lifecycle_manager:/root/ros2_ws/install/ros2_aruco:/opt/ros/foxy LD_LIBRARY_PATH=/root/ros2_ws/src/install/plansys2_domain_expert/lib:/root/ros2_ws/src/install/plansys2_popf_plan_solver/lib:/root/ros2_ws/src/install/plansys2_core/lib:/root/ros2_ws/src/install/plansys2_pddl_parser/lib:/root/ros2_ws/src/install/plansys2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/src/install/plansys2_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ros2_ws/src/build/plansys2_problem_expert -- -j16 -l16
+[2.335s] [35m[1mScanning dependencies of target gtest[0m
+[2.335s] [35m[1mScanning dependencies of target plansys2_problem_expert[0m
+[2.335s] [35m[1mScanning dependencies of target gtest_main[0m
+[2.347s] [  5%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[2.347s] [ 11%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[2.391s] [ 17%] [32mBuilding CXX object CMakeFiles/plansys2_problem_expert.dir/src/plansys2_problem_expert/ProblemExpert.cpp.o[0m
+[2.392s] [ 23%] [32mBuilding CXX object CMakeFiles/plansys2_problem_expert.dir/src/plansys2_problem_expert/ProblemExpertClient.cpp.o[0m
+[2.393s] [ 29%] [32mBuilding CXX object CMakeFiles/plansys2_problem_expert.dir/src/plansys2_problem_expert/ProblemExpertNode.cpp.o[0m
+[2.393s] [ 35%] [32mBuilding CXX object CMakeFiles/plansys2_problem_expert.dir/src/plansys2_problem_expert/Utils.cpp.o[0m
+[2.972s] [ 41%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[3.000s] [ 41%] Built target gtest_main
+[4.658s] [ 47%] [32m[1mLinking CXX static library libgtest.a[0m
+[4.697s] [ 47%] Built target gtest
+[8.156s] [ 52%] [32m[1mLinking CXX shared library libplansys2_problem_expert.so[0m
+[8.722s] [ 52%] Built target plansys2_problem_expert
+[8.735s] [35m[1mScanning dependencies of target problem_expert_node[0m
+[8.735s] [35m[1mScanning dependencies of target problem_expert_test[0m
+[8.735s] [35m[1mScanning dependencies of target problem_expert_node_test[0m
+[8.735s] [35m[1mScanning dependencies of target utils_test[0m
+[8.759s] [ 58%] [32mBuilding CXX object test/unit/CMakeFiles/problem_expert_test.dir/problem_expert_test.cpp.o[0m
+[8.786s] [ 64%] [32mBuilding CXX object CMakeFiles/problem_expert_node.dir/src/problem_expert_node.cpp.o[0m
+[8.791s] [ 76%] [32mBuilding CXX object test/unit/CMakeFiles/problem_expert_node_test.dir/problem_expert_node_test.cpp.o[0m
+[8.791s] [ 76%] [32mBuilding CXX object test/unit/CMakeFiles/utils_test.dir/utils_test.cpp.o[0m
+[10.313s] [ 82%] [32m[1mLinking CXX executable problem_expert_test[0m
+[10.395s] [ 88%] [32m[1mLinking CXX executable problem_expert_node[0m
+[10.719s] [ 88%] Built target problem_expert_node
+[10.727s] [ 88%] Built target problem_expert_test
+[12.200s] [ 94%] [32m[1mLinking CXX executable utils_test[0m
+[12.615s] [ 94%] Built target utils_test
+[13.594s] [100%] [32m[1mLinking CXX executable problem_expert_node_test[0m
+[14.043s] [100%] Built target problem_expert_node_test
+[14.052s] Invoked command in '/root/ros2_ws/src/build/plansys2_problem_expert' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/src/install/plansys2_domain_expert:/root/ros2_ws/src/install/plansys2_popf_plan_solver:/root/ros2_ws/src/install/plansys2_core:/root/ros2_ws/src/install/plansys2_pddl_parser:/root/ros2_ws/src/install/plansys2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/src/install/plansys2_domain_expert:/root/ros2_ws/src/install/plansys2_popf_plan_solver:/root/ros2_ws/src/install/plansys2_core:/root/ros2_ws/src/install/plansys2_pddl_parser:/root/ros2_ws/src/install/plansys2_msgs:/root/ros2_ws/install/ros2_aruco_interfaces:/root/ros2_ws/install/robot_urdf:/root/ros2_ws/install/plansys2_planner:/root/ros2_ws/install/plansys2_problem_expert:/root/ros2_ws/install/plansys2_domain_expert:/root/ros2_ws/install/plansys2_popf_plan_solver:/root/ros2_ws/install/plansys2_core:/root/ros2_ws/install/plansys2_pddl_parser:/root/ros2_ws/install/plansys2_msgs:/root/ros2_ws/install/plansys2_lifecycle_manager:/root/ros2_ws/install/ros2_aruco:/opt/ros/foxy LD_LIBRARY_PATH=/root/ros2_ws/src/install/plansys2_domain_expert/lib:/root/ros2_ws/src/install/plansys2_popf_plan_solver/lib:/root/ros2_ws/src/install/plansys2_core/lib:/root/ros2_ws/src/install/plansys2_pddl_parser/lib:/root/ros2_ws/src/install/plansys2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/src/install/plansys2_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ros2_ws/src/build/plansys2_problem_expert -- -j16 -l16
+[14.056s] Invoking command in '/root/ros2_ws/src/build/plansys2_problem_expert': AMENT_PREFIX_PATH=/root/ros2_ws/src/install/plansys2_domain_expert:/root/ros2_ws/src/install/plansys2_popf_plan_solver:/root/ros2_ws/src/install/plansys2_core:/root/ros2_ws/src/install/plansys2_pddl_parser:/root/ros2_ws/src/install/plansys2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/src/install/plansys2_domain_expert:/root/ros2_ws/src/install/plansys2_popf_plan_solver:/root/ros2_ws/src/install/plansys2_core:/root/ros2_ws/src/install/plansys2_pddl_parser:/root/ros2_ws/src/install/plansys2_msgs:/root/ros2_ws/install/ros2_aruco_interfaces:/root/ros2_ws/install/robot_urdf:/root/ros2_ws/install/plansys2_planner:/root/ros2_ws/install/plansys2_problem_expert:/root/ros2_ws/install/plansys2_domain_expert:/root/ros2_ws/install/plansys2_popf_plan_solver:/root/ros2_ws/install/plansys2_core:/root/ros2_ws/install/plansys2_pddl_parser:/root/ros2_ws/install/plansys2_msgs:/root/ros2_ws/install/plansys2_lifecycle_manager:/root/ros2_ws/install/ros2_aruco:/opt/ros/foxy LD_LIBRARY_PATH=/root/ros2_ws/src/install/plansys2_domain_expert/lib:/root/ros2_ws/src/install/plansys2_popf_plan_solver/lib:/root/ros2_ws/src/install/plansys2_core/lib:/root/ros2_ws/src/install/plansys2_pddl_parser/lib:/root/ros2_ws/src/install/plansys2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/src/install/plansys2_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ros2_ws/src/build/plansys2_problem_expert
+[14.067s] -- Install configuration: ""
+[14.067s] -- Execute custom install script
+[14.068s] -- Symlinking: /root/ros2_ws/src/install/plansys2_problem_expert/include//plansys2_problem_expert/ProblemExpert.hpp
+[14.076s] -- Symlinking: /root/ros2_ws/src/install/plansys2_problem_expert/include//plansys2_problem_expert/ProblemExpertClient.hpp
+[14.082s] -- Symlinking: /root/ros2_ws/src/install/plansys2_problem_expert/include//plansys2_problem_expert/ProblemExpertInterface.hpp
+[14.090s] -- Symlinking: /root/ros2_ws/src/install/plansys2_problem_expert/include//plansys2_problem_expert/ProblemExpertNode.hpp
+[14.096s] -- Symlinking: /root/ros2_ws/src/install/plansys2_problem_expert/include//plansys2_problem_expert/Utils.hpp
+[14.105s] -- Symlinking: /root/ros2_ws/src/install/plansys2_problem_expert/share/plansys2_problem_expert/launch/problem_expert_launch.py
+[14.111s] -- Symlinking: /root/ros2_ws/src/install/plansys2_problem_expert/lib/libplansys2_problem_expert.so
+[14.118s] -- Symlinking: /root/ros2_ws/src/install/plansys2_problem_expert/lib/plansys2_problem_expert/problem_expert_node
+[14.126s] -- Symlinking: /root/ros2_ws/src/install/plansys2_problem_expert/share/plansys2_problem_expert/pddl/domain_charging.pddl
+[14.132s] -- Symlinking: /root/ros2_ws/src/install/plansys2_problem_expert/share/plansys2_problem_expert/pddl/domain_simple.pddl
+[14.140s] -- Symlinking: /root/ros2_ws/src/install/plansys2_problem_expert/share/plansys2_problem_expert/pddl/problem_charging.pddl
+[14.146s] -- Symlinking: /root/ros2_ws/src/install/plansys2_problem_expert/share/plansys2_problem_expert/pddl/problem_empty_domain.pddl
+[14.153s] -- Symlinking: /root/ros2_ws/src/install/plansys2_problem_expert/share/plansys2_problem_expert/pddl/problem_simple_1.pddl
+[14.160s] -- Symlinking: /root/ros2_ws/src/install/plansys2_problem_expert/share/plansys2_problem_expert/pddl/problem_unexpected_syntax.pddl
+[14.166s] -- Symlinking: /root/ros2_ws/src/install/plansys2_problem_expert/share/plansys2_problem_expert/environment/library_path.sh
+[14.173s] -- Symlinking: /root/ros2_ws/src/install/plansys2_problem_expert/share/plansys2_problem_expert/environment/library_path.dsv
+[14.181s] -- Symlinking: /root/ros2_ws/src/install/plansys2_problem_expert/share/ament_index/resource_index/package_run_dependencies/plansys2_problem_expert
+[14.188s] -- Symlinking: /root/ros2_ws/src/install/plansys2_problem_expert/share/ament_index/resource_index/parent_prefix_path/plansys2_problem_expert
+[14.196s] -- Symlinking: /root/ros2_ws/src/install/plansys2_problem_expert/share/plansys2_problem_expert/environment/ament_prefix_path.sh
+[14.201s] -- Symlinking: /root/ros2_ws/src/install/plansys2_problem_expert/share/plansys2_problem_expert/environment/ament_prefix_path.dsv
+[14.208s] -- Symlinking: /root/ros2_ws/src/install/plansys2_problem_expert/share/plansys2_problem_expert/environment/path.sh
+[14.214s] -- Symlinking: /root/ros2_ws/src/install/plansys2_problem_expert/share/plansys2_problem_expert/environment/path.dsv
+[14.221s] -- Symlinking: /root/ros2_ws/src/install/plansys2_problem_expert/share/plansys2_problem_expert/local_setup.bash
+[14.228s] -- Symlinking: /root/ros2_ws/src/install/plansys2_problem_expert/share/plansys2_problem_expert/local_setup.sh
+[14.234s] -- Symlinking: /root/ros2_ws/src/install/plansys2_problem_expert/share/plansys2_problem_expert/local_setup.zsh
+[14.240s] -- Symlinking: /root/ros2_ws/src/install/plansys2_problem_expert/share/plansys2_problem_expert/local_setup.dsv
+[14.247s] -- Symlinking: /root/ros2_ws/src/install/plansys2_problem_expert/share/plansys2_problem_expert/package.dsv
+[14.253s] -- Symlinking: /root/ros2_ws/src/install/plansys2_problem_expert/share/ament_index/resource_index/packages/plansys2_problem_expert
+[14.260s] -- Symlinking: /root/ros2_ws/src/install/plansys2_problem_expert/share/plansys2_problem_expert/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.266s] -- Symlinking: /root/ros2_ws/src/install/plansys2_problem_expert/share/plansys2_problem_expert/cmake/ament_cmake_export_libraries-extras.cmake
+[14.273s] -- Symlinking: /root/ros2_ws/src/install/plansys2_problem_expert/share/plansys2_problem_expert/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.280s] -- Symlinking: /root/ros2_ws/src/install/plansys2_problem_expert/share/plansys2_problem_expert/cmake/plansys2_problem_expertConfig.cmake
+[14.286s] -- Symlinking: /root/ros2_ws/src/install/plansys2_problem_expert/share/plansys2_problem_expert/cmake/plansys2_problem_expertConfig-version.cmake
+[14.292s] -- Symlinking: /root/ros2_ws/src/install/plansys2_problem_expert/share/plansys2_problem_expert/package.xml
+[14.302s] Invoked command in '/root/ros2_ws/src/build/plansys2_problem_expert' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/src/install/plansys2_domain_expert:/root/ros2_ws/src/install/plansys2_popf_plan_solver:/root/ros2_ws/src/install/plansys2_core:/root/ros2_ws/src/install/plansys2_pddl_parser:/root/ros2_ws/src/install/plansys2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/src/install/plansys2_domain_expert:/root/ros2_ws/src/install/plansys2_popf_plan_solver:/root/ros2_ws/src/install/plansys2_core:/root/ros2_ws/src/install/plansys2_pddl_parser:/root/ros2_ws/src/install/plansys2_msgs:/root/ros2_ws/install/ros2_aruco_interfaces:/root/ros2_ws/install/robot_urdf:/root/ros2_ws/install/plansys2_planner:/root/ros2_ws/install/plansys2_problem_expert:/root/ros2_ws/install/plansys2_domain_expert:/root/ros2_ws/install/plansys2_popf_plan_solver:/root/ros2_ws/install/plansys2_core:/root/ros2_ws/install/plansys2_pddl_parser:/root/ros2_ws/install/plansys2_msgs:/root/ros2_ws/install/plansys2_lifecycle_manager:/root/ros2_ws/install/ros2_aruco:/opt/ros/foxy LD_LIBRARY_PATH=/root/ros2_ws/src/install/plansys2_domain_expert/lib:/root/ros2_ws/src/install/plansys2_popf_plan_solver/lib:/root/ros2_ws/src/install/plansys2_core/lib:/root/ros2_ws/src/install/plansys2_pddl_parser/lib:/root/ros2_ws/src/install/plansys2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/src/install/plansys2_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ros2_ws/src/build/plansys2_problem_expert

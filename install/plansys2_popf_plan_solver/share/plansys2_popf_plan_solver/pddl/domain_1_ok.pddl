@@ -1,0 +1,1 @@
+/root/ros2_ws/src/ros2_planning_system/plansys2_popf_plan_solver/test/pddl/domain_1_ok.pddl

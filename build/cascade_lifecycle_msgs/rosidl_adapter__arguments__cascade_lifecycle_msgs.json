@@ -1,0 +1,7 @@
+{
+  "package_name": "cascade_lifecycle_msgs",
+  "non_idl_tuples": [
+    "/root/ros2_ws/src/ros2_planning_system/cascade_lifecycle/cascade_lifecycle_msgs:msg/Activation.msg",
+    "/root/ros2_ws/src/ros2_planning_system/cascade_lifecycle/cascade_lifecycle_msgs:msg/State.msg"
+  ]
+}

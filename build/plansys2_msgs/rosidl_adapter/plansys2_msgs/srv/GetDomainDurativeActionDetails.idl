@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from plansys2_msgs/srv/GetDomainDurativeActionDetails.srv
+// generated code does not contain a copyright notice
+
+#include "plansys2_msgs/msg/DurativeAction.idl"
+
+module plansys2_msgs {
+  module srv {
+    struct GetDomainDurativeActionDetails_Request {
+      string durative_action;
+
+      sequence<string> parameters;
+    };
+    struct GetDomainDurativeActionDetails_Response {
+      boolean success;
+
+      plansys2_msgs::msg::DurativeAction durative_action;
+
+      string error_info;
+    };
+  };
+};

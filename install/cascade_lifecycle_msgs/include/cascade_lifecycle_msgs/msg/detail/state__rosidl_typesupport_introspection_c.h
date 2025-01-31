@@ -1,0 +1,1 @@
+/root/ros2_ws/src/build/cascade_lifecycle_msgs/rosidl_typesupport_introspection_c/cascade_lifecycle_msgs/msg/detail/state__rosidl_typesupport_introspection_c.h

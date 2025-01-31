@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from plansys2_msgs/srv/GetProblemInstanceDetails.srv
+// generated code does not contain a copyright notice
+
+#include "plansys2_msgs/msg/Param.idl"
+
+module plansys2_msgs {
+  module srv {
+    struct GetProblemInstanceDetails_Request {
+      string instance;
+    };
+    struct GetProblemInstanceDetails_Response {
+      boolean success;
+
+      plansys2_msgs::msg::Param instance;
+
+      string error_info;
+    };
+  };
+};

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/root/ros2_ws/src/build/plansys2_msgs/rosidl_generator_py/plansys2_msgs/plansys2_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" "TARGETS" "plansys2_msgs__rosidl_typesupport_introspection_c__pyext" "DESTINATION" "lib/python3.8/site-packages/plansys2_msgs")

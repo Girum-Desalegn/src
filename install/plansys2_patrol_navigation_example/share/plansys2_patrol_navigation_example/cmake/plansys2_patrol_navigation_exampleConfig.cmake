@@ -1,0 +1,1 @@
+/root/ros2_ws/src/build/plansys2_patrol_navigation_example/ament_cmake_core/plansys2_patrol_navigation_exampleConfig.cmake

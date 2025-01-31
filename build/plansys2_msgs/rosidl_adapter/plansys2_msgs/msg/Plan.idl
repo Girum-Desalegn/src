@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from plansys2_msgs/msg/Plan.msg
+// generated code does not contain a copyright notice
+
+#include "plansys2_msgs/msg/PlanItem.idl"
+
+module plansys2_msgs {
+  module msg {
+    struct Plan {
+      sequence<plansys2_msgs::msg::PlanItem> items;
+    };
+  };
+};

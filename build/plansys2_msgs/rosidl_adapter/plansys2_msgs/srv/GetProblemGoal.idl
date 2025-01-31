@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from plansys2_msgs/srv/GetProblemGoal.srv
+// generated code does not contain a copyright notice
+
+#include "plansys2_msgs/msg/Tree.idl"
+#include "std_msgs/msg/Empty.idl"
+
+module plansys2_msgs {
+  module srv {
+    struct GetProblemGoal_Request {
+      std_msgs::msg::Empty request;
+    };
+    struct GetProblemGoal_Response {
+      boolean success;
+
+      plansys2_msgs::msg::Tree tree;
+
+      string error_info;
+    };
+  };
+};

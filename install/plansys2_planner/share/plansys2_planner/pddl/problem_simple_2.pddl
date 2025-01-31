@@ -1,0 +1,1 @@
+/root/ros2_ws/src/ros2_planning_system/plansys2_planner/test/pddl/problem_simple_2.pddl

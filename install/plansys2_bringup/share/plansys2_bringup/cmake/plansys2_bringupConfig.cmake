@@ -1,0 +1,1 @@
+/root/ros2_ws/src/build/plansys2_bringup/ament_cmake_core/plansys2_bringupConfig.cmake

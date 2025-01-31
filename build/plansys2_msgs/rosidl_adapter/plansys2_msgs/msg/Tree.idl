@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from plansys2_msgs/msg/Tree.msg
+// generated code does not contain a copyright notice
+
+#include "plansys2_msgs/msg/Node.idl"
+
+module plansys2_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      " A tree used to represent a PDDL construct in PlanSys2")
+    struct Tree {
+      sequence<plansys2_msgs::msg::Node> nodes;
+    };
+  };
+};

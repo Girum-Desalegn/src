@@ -1,0 +1,1 @@
+/root/ros2_ws/src/build/cascade_lifecycle_msgs/rosidl_generator_c/cascade_lifecycle_msgs/msg/detail/activation__functions.h
